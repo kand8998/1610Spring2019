@@ -5561,7 +5561,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 578064680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.627304, y: -1.5405326, z: 0}
+  m_LocalPosition: {x: 6.627304, y: -1.540533, z: 0}
   m_LocalScale: {x: 0.485448, y: 0.485448, z: 0.485448}
   m_Children:
   - {fileID: 1439633728}
@@ -10843,7 +10843,7 @@ Transform:
   m_GameObject: {fileID: 1439633727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 3.4, z: 0}
-  m_LocalScale: {x: 0.91688526, y: 0.91688526, z: 0.91688526}
+  m_LocalScale: {x: 0.91688526, y: 0.9168853, z: 0.9168853}
   m_Children: []
   m_Father: {fileID: 578064681}
   m_RootOrder: 0
@@ -11402,7 +11402,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'Egg
+
+'
 --- !u!222 &2007869759
 CanvasRenderer:
   m_ObjectHideFlags: 0
