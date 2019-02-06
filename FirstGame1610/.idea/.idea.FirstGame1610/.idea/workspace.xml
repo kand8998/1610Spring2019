@@ -71,13 +71,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Mammal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1549405193887" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549405193887" expanded="true" signature="108:260" ph="{...}" />
-                <marker date="1549405193887" expanded="true" signature="189:196" ph="{...}" />
-                <marker date="1549405193887" expanded="true" signature="251:258" ph="{...}" />
+                <marker date="1549483716728" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549483716728" expanded="true" signature="108:310" ph="{...}" />
+                <marker date="1549483716728" expanded="true" signature="188:246" ph="{...}" />
+                <marker date="1549483716728" expanded="true" signature="301:308" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -86,13 +86,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Insect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="240">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
-                <marker date="1549324274645" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549324274645" expanded="true" signature="108:257" ph="{...}" />
-                <marker date="1549324274645" expanded="true" signature="186:193" ph="{...}" />
-                <marker date="1549324274645" expanded="true" signature="248:255" ph="{...}" />
+                <marker date="1549483716706" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549483716706" expanded="true" signature="108:307" ph="{...}" />
+                <marker date="1549483716706" expanded="true" signature="183:216" ph="{...}" />
+                <marker date="1549483716706" expanded="true" signature="271:305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,9 +118,9 @@
         <option value="$PROJECT_DIR$/Assets/MushroomEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/EggEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Animal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Insect.cs" />
         <option value="$PROJECT_DIR$/Assets/Amphibian.cs" />
         <option value="$PROJECT_DIR$/Assets/Mammal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Insect.cs" />
       </list>
     </option>
   </component>
@@ -184,12 +184,13 @@
       <workItem from="1548878095242" duration="1266000" />
       <workItem from="1548974910055" duration="451000" />
       <workItem from="1549323350248" duration="2372000" />
-      <workItem from="1549404703878" duration="490000" />
+      <workItem from="1549404703878" duration="1095000" />
+      <workItem from="1549482279391" duration="1685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4579000" />
+    <option name="totallyTimeSpent" value="6869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,7 +202,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="616" y="0" width="864" height="832" extended-state="0" />
+    <frame x="616" y="0" width="864" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
@@ -289,13 +290,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Insect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="240">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
-            <marker date="1549324274645" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549324274645" expanded="true" signature="108:257" ph="{...}" />
-            <marker date="1549324274645" expanded="true" signature="186:193" ph="{...}" />
-            <marker date="1549324274645" expanded="true" signature="248:255" ph="{...}" />
+            <marker date="1549483716706" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549483716706" expanded="true" signature="108:307" ph="{...}" />
+            <marker date="1549483716706" expanded="true" signature="183:216" ph="{...}" />
+            <marker date="1549483716706" expanded="true" signature="271:305" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -315,13 +316,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Mammal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1549405193887" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549405193887" expanded="true" signature="108:260" ph="{...}" />
-            <marker date="1549405193887" expanded="true" signature="189:196" ph="{...}" />
-            <marker date="1549405193887" expanded="true" signature="251:258" ph="{...}" />
+            <marker date="1549483716728" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549483716728" expanded="true" signature="108:310" ph="{...}" />
+            <marker date="1549483716728" expanded="true" signature="188:246" ph="{...}" />
+            <marker date="1549483716728" expanded="true" signature="301:308" ph="{...}" />
           </folding>
         </state>
       </provider>

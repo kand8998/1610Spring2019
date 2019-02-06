@@ -5,15 +5,17 @@ using UnityEngine;
 public class Mammal : Animal
 {
 
-	public Color markingColor;
+	public Color MarkingColor;
 	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+	{
+
 	}
 }
