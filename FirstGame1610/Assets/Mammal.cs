@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Mammal : Animal
 {
@@ -14,8 +15,8 @@ public class Mammal : Animal
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
-
+		transform.Translate(1,0,0);
 	}
 }
