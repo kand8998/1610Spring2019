@@ -1,22 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Mammal : Animal
+public class Raccoon : Mammal 
 {
 
-	public Color MarkingColor;
-	
 	// Use this for initialization
-	void Start ()
-	{
+	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update () 
 	{
-		
+		transform.Translate(1,0,0);
 	}
 }

@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Mammal : Animal
-{
+public class Round : MonoBehaviour {
 
-	public Color MarkingColor;
-	
 	// Use this for initialization
-	void Start ()
-	{
+	void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void Update () 
 	{
-		
+		transform.Rotate(0,0,-2);
 	}
 }

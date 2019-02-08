@@ -7,14 +7,14 @@ public class Amphibian : Animal
 
 	public Color SplotchesColor;
 	
-	public 
-	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		GetComponent<SpriteRenderer>().color = SplotchesColor;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
 	}
 }

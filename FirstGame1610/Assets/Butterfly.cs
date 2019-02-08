@@ -1,22 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class Mammal : Animal
+public class Butterfly : Insect 
 {
 
-	public Color MarkingColor;
-	
 	// Use this for initialization
-	void Start ()
+	void Start () 
 	{
-		
+		print("Flutter, Flutter!");
+		print("Flap,Flap");
 	}
 	
 	// Update is called once per frame
-	void Update ()
-	{
+	void Update () {
 		
 	}
 }

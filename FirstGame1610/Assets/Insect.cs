@@ -10,12 +10,13 @@ public class Insect : Animal
 // Use this for initialization
 	void Start ()
 	 {
-		print("Hello, World!");
+		
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		transform.Rotate(0,20,0);
+		transform.Translate(0,1,0);
+		transform.Translate(0,0,0);
 	}
 }

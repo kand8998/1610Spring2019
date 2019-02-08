@@ -8,10 +8,15 @@
       <e p="Assets" t="Include">
         <e p="Amphibian.cs" t="Include" />
         <e p="Animal.cs" t="Include" />
+        <e p="Bubble.cs" t="Include" />
+        <e p="Butterfly.cs" t="Include" />
         <e p="EggEvent.cs" t="Include" />
         <e p="Insect.cs" t="Include" />
         <e p="Mammal.cs" t="Include" />
         <e p="MushroomEvent.cs" t="Include" />
+        <e p="Newt.cs" t="Include" />
+        <e p="Raccoon.cs" t="Include" />
+        <e p="Round.cs" t="Include" />
       </e>
       <e p="FirstGame1610.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
