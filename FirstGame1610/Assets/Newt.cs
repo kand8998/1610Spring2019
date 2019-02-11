@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Newt : Amphibian 
+public class Newt : Amphibian
 {
 
+	public float EatingSpeed = 0.5f;
+
+	public bool CanEat = true;
+	
 	// Use this for initialization
 	void Start () 
 	{

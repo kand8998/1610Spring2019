@@ -7,6 +7,8 @@ public class Mammal : Animal
 {
 
 	public Color MarkingColor;
+	public int FurCount = 10000;
+	
 	
 	// Use this for initialization
 	void Start ()
