@@ -17,6 +17,5 @@ public class Insect : Animal
 	void Update () 
 	{
 		transform.Translate(0,1,0);
-		transform.Translate(0,0,0);
 	}
 }
