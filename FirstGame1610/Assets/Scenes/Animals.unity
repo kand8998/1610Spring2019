@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Newton
-  SkinColor: {r: 0.1137255, g: 0.09411766, b: 0.3019608, a: 0}
+  SkinColor: {r: 1, g: 1, b: 1, a: 1}
   Health: 100
   Speed: 5
   CanMove: 1

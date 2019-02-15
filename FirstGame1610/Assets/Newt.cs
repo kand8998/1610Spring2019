@@ -13,6 +13,7 @@ public class Newt : Amphibian
 	void Start () 
 	{
 		print("Blargh!");
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame
