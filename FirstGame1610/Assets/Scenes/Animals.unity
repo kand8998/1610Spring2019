@@ -505,12 +505,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Newton
   SkinColor: {r: 1, g: 1, b: 1, a: 1}
-  Health: {fileID: 0}
-  Speed: {fileID: 0}
-  CanMove: 0
+  Health: {fileID: 11400000, guid: 54babbed78d821f4cbe5ab3aa0d907a3, type: 2}
+  Speed: {fileID: 11400000, guid: 22cb51ccd1d88e44c813d87adf6d35ca, type: 2}
+  CanMove: 1
   SplotchesColor: {r: 0.8745099, g: 0.5058824, b: 0.043137256, a: 0}
   EatingSpeed: 0.5
   CanEat: 1
+  Distance: {fileID: 11400000, guid: 0f82a40b764b24742a953d97174a2534, type: 2}
 --- !u!212 &1316437707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -835,8 +836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Flutter
   SkinColor: {r: 0.4039216, g: 0.18431373, b: 0.39607847, a: 0}
-  Health: {fileID: 0}
-  Speed: {fileID: 0}
+  Health: {fileID: 11400000, guid: 54babbed78d821f4cbe5ab3aa0d907a3, type: 2}
+  Speed: {fileID: 11400000, guid: 22cb51ccd1d88e44c813d87adf6d35ca, type: 2}
   WingColor: {r: 1, g: 0.8039216, b: 0.8392157, a: 1}
   Event:
     m_PersistentCalls:
