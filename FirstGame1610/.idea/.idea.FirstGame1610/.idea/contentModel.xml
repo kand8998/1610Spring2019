@@ -11,6 +11,7 @@
         <e p="Bubble.cs" t="Include" />
         <e p="Butterfly.cs" t="Include" />
         <e p="CaveCreature.cs" t="Include" />
+        <e p="ClockTime.cs" t="Include" />
         <e p="ColorData.cs" t="Include" />
         <e p="EggEvent.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
