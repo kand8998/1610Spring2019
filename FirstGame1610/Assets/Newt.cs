@@ -6,7 +6,6 @@ public class Newt : Amphibian
 {
 
 	public float EatingSpeed = 0.5f;
-
 	public bool CanEat = true;
 	
 	// Use this for initialization

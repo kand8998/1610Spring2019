@@ -4,7 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Butterfly : Insect
+public class Butterfly : WingedInsect
 {
 	public UnityEvent Event;
 
