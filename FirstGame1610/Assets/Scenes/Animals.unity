@@ -505,9 +505,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Newton
   SkinColor: {r: 1, g: 1, b: 1, a: 1}
-  Health: 100
-  Speed: 5
-  CanMove: 1
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
+  CanMove: 0
   SplotchesColor: {r: 0.8745099, g: 0.5058824, b: 0.043137256, a: 0}
   EatingSpeed: 0.5
   CanEat: 1
@@ -660,8 +660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bandit
   SkinColor: {r: 1, g: 1, b: 1, a: 0}
-  Health: 10
-  Speed: 20
+  Health: {fileID: 11400000, guid: 54babbed78d821f4cbe5ab3aa0d907a3, type: 2}
+  Speed: {fileID: 11400000, guid: 22cb51ccd1d88e44c813d87adf6d35ca, type: 2}
   CanMove: 1
   MarkingColor: {r: 0.61960787, g: 0.86274517, b: 0.7725491, a: 0}
   FurCount: 10000
@@ -677,10 +677,11 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  Hunger: {fileID: 11400000, guid: fd91a149c786dbb46842be837b60b74c, type: 2}
 --- !u!212 &1576515547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -834,15 +835,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Flutter
   SkinColor: {r: 0.4039216, g: 0.18431373, b: 0.39607847, a: 0}
-  Health: 100
-  Speed: 6
-  CanMove: 1
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   WingColor: {r: 1, g: 0.8039216, b: 0.8392157, a: 1}
   Event:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1971238102}
-        m_MethodName: set_enabled
+        m_MethodName: set_useGUILayout
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
