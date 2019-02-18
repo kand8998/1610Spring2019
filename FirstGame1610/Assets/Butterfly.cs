@@ -6,13 +6,7 @@ using UnityEngine.Events;
 
 public class Butterfly : WingedInsect
 {
-	public UnityEvent Event;
 
-	private void OnCollisionEnter2D(Collision2D other)
-	{
-		Event.Invoke();
-	
-	}
 		// Use this for initialization
 		void Start()
 		{

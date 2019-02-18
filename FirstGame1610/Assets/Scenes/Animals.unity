@@ -816,6 +816,7 @@ GameObject:
   - component: {fileID: 1971238102}
   - component: {fileID: 1971238105}
   - component: {fileID: 1971238106}
+  - component: {fileID: 1971238107}
   m_Layer: 0
   m_Name: ButterflyArt
   m_TagString: Untagged
@@ -839,22 +840,6 @@ MonoBehaviour:
   Health: {fileID: 11400000, guid: 54babbed78d821f4cbe5ab3aa0d907a3, type: 2}
   Speed: {fileID: 11400000, guid: 22cb51ccd1d88e44c813d87adf6d35ca, type: 2}
   WingColor: {r: 1, g: 0.8039216, b: 0.8392157, a: 1}
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1971238102}
-        m_MethodName: set_useGUILayout
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!212 &1971238103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -957,6 +942,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.63, y: 6.04}
   m_EdgeRadius: 0
+--- !u!114 &1971238107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971238101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1131eba2039f3499c6332b83b40ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1971238102}
+        m_MethodName: set_runInEditMode
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2085766764
 GameObject:
   m_ObjectHideFlags: 0
