@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class Butterfly : WingedInsect
 {
-
 		// Use this for initialization
 		void Start()
 		{
@@ -17,7 +16,7 @@ public class Butterfly : WingedInsect
 		// Update is called once per frame
 		void Update()
 		{
-			GetComponent<SpriteRenderer>().color = WingColor;
+			
 		}
 	}
 
