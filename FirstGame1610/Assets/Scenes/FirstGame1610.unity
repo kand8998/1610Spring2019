@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11105,7 +11105,6 @@ GameObject:
   - component: {fileID: 1234063956}
   - component: {fileID: 1234063958}
   - component: {fileID: 1234063957}
-  - component: {fileID: 1234063959}
   m_Layer: 0
   m_Name: ClockArt
   m_TagString: Untagged
@@ -11194,18 +11193,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1234063959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1234063955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f12c35b10f5f6488d151748d01fc1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameTime: {fileID: 11400000, guid: 39d665c0b0fe3fa449db2655f3ec8fd4, type: 2}
 --- !u!1 &1434034879
 GameObject:
   m_ObjectHideFlags: 0
@@ -11828,7 +11815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1908174809}
   m_Layer: 0
-  m_Name: BoardController
+  m_Name: BoarController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

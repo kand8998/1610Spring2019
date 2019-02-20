@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Mammal : Vertebrate
+public class Mammal : Animal
 {
 
 	public Color MarkingColor;

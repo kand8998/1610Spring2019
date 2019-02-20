@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Amphibian : CaveCreature
+public class Amphibian : Animal
 {
 
 	public Color SplotchesColor;
 	
 	void Start ()
 	{
+		GetComponent<SpriteRenderer>().color = SplotchesColor;
 	}
 	
 	// Update is called once per frame

@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public class Raccoon : Mammal
 {
 	public UnityEvent Event;
-	public FloatData Hunger;
 	// Use this for initialization
 	void Start () 
 	{
