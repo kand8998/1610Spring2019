@@ -9,20 +9,24 @@ public class MonoEvents : MonoBehaviour
 	void Start () 
 	{
 		StartEvent.Invoke();
+		
 	}
 
 	private void OnEnable()
 	{
 		EnableEvent.Invoke();
+		
 	}
 
 	private void OnMouseDown()
 	{
 		MouseDownEvent.Invoke();
+		
 	}
 
 	void Update () 
 	{
 		UpdateEvent.Invoke();
+		
 	}
 }

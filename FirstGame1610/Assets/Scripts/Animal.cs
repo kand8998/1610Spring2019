@@ -10,12 +10,14 @@ public class Animal : MonoBehaviour
 	public FloatData Speed;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 	}
 }

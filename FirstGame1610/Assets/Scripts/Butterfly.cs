@@ -6,17 +6,29 @@ using UnityEngine.Events;
 
 public class Butterfly : WingedInsect
 {
-		// Use this for initialization
-		void Start()
-		{
-			print("Flutter, Flutter!");
-			print("Flap,Flap");
-		}
+	public UnityEvent MouseDownEvent;
+	public UnityEvent Event;
 
-		// Update is called once per frame
-		void Update()
-		{
-			
-		}
+	private void OnCollisionEnter2D(Collision2D other)
+	{
+		Event.Invoke();
+		GetComponent<SpriteRenderer>().color = WingColor;
 	}
+
+	void Start()
+	{
+		print("Flutter, Flutter!");
+	}
+
+	void Update()
+	{
+
+	}
+
+	private void OnMouseDown()
+	{
+		MouseDownEvent.Invoke();
+		GetComponent<SpriteRenderer>().color = WingColor;
+	}
+}
 
