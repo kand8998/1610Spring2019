@@ -6,8 +6,7 @@ using UnityEngine.Events;
 
 public class Butterfly : WingedInsect
 {
-	public UnityEvent MouseDownEvent;
-	public UnityEvent Event;
+	public UnityEvent MouseDownEvent, Event;
 
 	private void OnCollisionEnter2D(Collision2D other)
 	{

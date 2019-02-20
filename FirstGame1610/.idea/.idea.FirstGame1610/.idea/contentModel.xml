@@ -24,6 +24,7 @@
           <e p="Newt.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="Raccoon.cs" t="Include" />
+          <e p="RaccoonPowerUp.cs" t="Include" />
           <e p="Round.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="Vertebrate.cs" t="Include" />
