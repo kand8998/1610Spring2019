@@ -97,7 +97,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpDisappear.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MushroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -143,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="961" />
     <option name="width" value="964" />
     <option name="height" value="1040" />
@@ -233,8 +232,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -435,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1550795865527" expanded="false" signature="6:104" ph="..." />
-            <marker date="1550795865527" expanded="true" signature="141:420" ph="{...}" />
-            <marker date="1550795865527" expanded="true" signature="256:263" ph="{...}" />
-            <marker date="1550795865527" expanded="true" signature="318:325" ph="{...}" />
-            <marker date="1550795865527" expanded="true" signature="353:418" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>

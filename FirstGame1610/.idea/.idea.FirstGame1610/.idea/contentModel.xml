@@ -24,7 +24,6 @@
           <e p="MushroomEvent.cs" t="Include" />
           <e p="Newt.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
-          <e p="PowerUpDisappear.cs" t="Include" />
           <e p="Raccoon.cs" t="Include" />
           <e p="RaccoonPowerUp.cs" t="Include" />
           <e p="Round.cs" t="Include" />
