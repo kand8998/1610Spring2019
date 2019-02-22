@@ -16,6 +16,7 @@
           <e p="ColorData.cs" t="Include" />
           <e p="EggEvent.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="HealthClick.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
@@ -23,6 +24,7 @@
           <e p="MushroomEvent.cs" t="Include" />
           <e p="Newt.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
+          <e p="PowerUpDisappear.cs" t="Include" />
           <e p="Raccoon.cs" t="Include" />
           <e p="RaccoonPowerUp.cs" t="Include" />
           <e p="Round.cs" t="Include" />
