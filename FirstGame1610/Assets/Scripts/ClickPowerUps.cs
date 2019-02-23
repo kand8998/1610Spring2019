@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthClick : MonoBehaviour 
+public class ClickPowerUps : MonoBehaviour 
 {
 	public Color TransparentColor;
 	// Use this for initialization

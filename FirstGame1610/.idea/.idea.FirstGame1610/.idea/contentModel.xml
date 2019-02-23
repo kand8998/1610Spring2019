@@ -7,16 +7,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Ammo.cs" t="Include" />
           <e p="Amphibian.cs" t="Include" />
           <e p="Animal.cs" t="Include" />
           <e p="Bubble.cs" t="Include" />
           <e p="Butterfly.cs" t="Include" />
           <e p="CaveCreature.cs" t="Include" />
+          <e p="ClickPowerUps.cs" t="Include" />
           <e p="ClockTime.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
           <e p="EggEvent.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="HealthClick.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />

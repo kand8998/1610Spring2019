@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 44710590}
   - component: {fileID: 44710589}
   - component: {fileID: 44710591}
+  - component: {fileID: 44710592}
   m_Layer: 0
   m_Name: EggArt
   m_TagString: Untagged
@@ -433,6 +434,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &44710592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 44710585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 1, g: 0.868332, b: 0, a: 0}
 --- !u!1 &202411429
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +791,7 @@ GameObject:
   - component: {fileID: 277339412}
   - component: {fileID: 277339414}
   - component: {fileID: 277339415}
+  - component: {fileID: 277339416}
   m_Layer: 0
   m_Name: CrystalArt
   m_TagString: Untagged
@@ -927,6 +941,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &277339416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277339410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &334734469
 GameObject:
   m_ObjectHideFlags: 0
@@ -11256,6 +11282,7 @@ GameObject:
   - component: {fileID: 1234063957}
   - component: {fileID: 1234063959}
   - component: {fileID: 1234063960}
+  - component: {fileID: 1234063961}
   m_Layer: 0
   m_Name: ClockArt
   m_TagString: Untagged
@@ -11368,6 +11395,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.1799994, y: 10.06, z: 1}
   m_Center: {x: -0.0000019073486, y: 0, z: 0}
+--- !u!114 &1234063961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234063955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 1, g: 0.93717265, b: 0, a: 0}
 --- !u!1 &1434034879
 GameObject:
   m_ObjectHideFlags: 0
