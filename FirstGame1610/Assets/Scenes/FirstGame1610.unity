@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 44710590}
   - component: {fileID: 44710589}
   - component: {fileID: 44710591}
+  - component: {fileID: 44710592}
   m_Layer: 0
   m_Name: EggArt
   m_TagString: Untagged
@@ -433,6 +434,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &44710592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 44710585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 1, g: 0.868332, b: 0, a: 0}
 --- !u!1 &202411429
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +789,9 @@ GameObject:
   - component: {fileID: 277339411}
   - component: {fileID: 277339413}
   - component: {fileID: 277339412}
+  - component: {fileID: 277339414}
+  - component: {fileID: 277339415}
+  - component: {fileID: 277339416}
   m_Layer: 0
   m_Name: CrystalArt
   m_TagString: Untagged
@@ -860,6 +876,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &277339414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277339410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.25, y: 5.94, z: 1}
+  m_Center: {x: 0.00000047683716, y: 0.000000059604645, z: 0}
+--- !u!114 &277339415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277339410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3045eff13230394a9c91a2122a659c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 277339410}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  MouseDownEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 48976c142c7dca344b8a7e31248d23dc, type: 2}
+        m_MethodName: OnPowerUp
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  UpdateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &277339416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277339410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &334734469
 GameObject:
   m_ObjectHideFlags: 0
@@ -5691,6 +5784,7 @@ GameObject:
   - component: {fileID: 500670370}
   - component: {fileID: 500670372}
   - component: {fileID: 500670371}
+  - component: {fileID: 500670373}
   m_Layer: 0
   m_Name: RockArt
   m_TagString: Untagged
@@ -5775,6 +5869,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &500670373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500670369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.729999, y: 13.899999, z: 1}
+  m_Center: {x: 0.0000019073486, y: 0, z: 0}
 --- !u!1 &578064680
 GameObject:
   m_ObjectHideFlags: 0
@@ -5785,6 +5891,9 @@ GameObject:
   - component: {fileID: 578064681}
   - component: {fileID: 578064683}
   - component: {fileID: 578064682}
+  - component: {fileID: 578064684}
+  - component: {fileID: 578064685}
+  - component: {fileID: 578064686}
   m_Layer: 0
   m_Name: SoupArt
   m_TagString: Untagged
@@ -5870,6 +5979,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &578064684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578064680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.95, y: 4.93, z: 1}
+  m_Center: {x: 0.0000019073486, y: -0.00000011920929, z: 0}
+--- !u!114 &578064685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578064680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3045eff13230394a9c91a2122a659c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  MouseDownEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 1d93ba46011f71240abdf6d859905d71, type: 2}
+        m_MethodName: OnPowerUp
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  UpdateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &578064686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578064680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 1, g: 0.9137181, b: 0, a: 0}
 --- !u!1 &597794011
 GameObject:
   m_ObjectHideFlags: 0
@@ -11105,6 +11280,9 @@ GameObject:
   - component: {fileID: 1234063956}
   - component: {fileID: 1234063958}
   - component: {fileID: 1234063957}
+  - component: {fileID: 1234063959}
+  - component: {fileID: 1234063960}
+  - component: {fileID: 1234063961}
   m_Layer: 0
   m_Name: ClockArt
   m_TagString: Untagged
@@ -11193,6 +11371,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1234063959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234063955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f12c35b10f5f6488d151748d01fc1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameTime: {fileID: 11400000, guid: 39d665c0b0fe3fa449db2655f3ec8fd4, type: 2}
+--- !u!65 &1234063960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234063955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.1799994, y: 10.06, z: 1}
+  m_Center: {x: -0.0000019073486, y: 0, z: 0}
+--- !u!114 &1234063961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234063955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75cab5039510c8043b190e77a1a2cc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransparentColor: {r: 1, g: 0.93717265, b: 0, a: 0}
 --- !u!1 &1434034879
 GameObject:
   m_ObjectHideFlags: 0
@@ -11647,6 +11861,7 @@ GameObject:
   - component: {fileID: 1748887150}
   - component: {fileID: 1748887152}
   - component: {fileID: 1748887151}
+  - component: {fileID: 1748887153}
   m_Layer: 0
   m_Name: BushArt
   m_TagString: Untagged
@@ -11731,6 +11946,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1748887153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1748887149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.179999, y: 16.119999, z: 1}
+  m_Center: {x: 0.0000019073486, y: 0, z: 0}
 --- !u!1 &1758382765
 GameObject:
   m_ObjectHideFlags: 0
