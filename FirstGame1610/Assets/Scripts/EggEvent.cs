@@ -7,6 +7,7 @@ public class EggEvent : MonoBehaviour
 
 	private void OnCollisionEnter2D()
 	{
-		Event. Invoke();
+		Event.Invoke();
 	}
+
 }
