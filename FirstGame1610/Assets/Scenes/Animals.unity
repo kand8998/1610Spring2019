@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 1316437709}
   - component: {fileID: 1316437706}
   - component: {fileID: 1316437710}
+  - component: {fileID: 1316437711}
   m_Layer: 0
   m_Name: NewtHeadArt
   m_TagString: Untagged
@@ -506,13 +507,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Newton
   SkinColor: {r: 1, g: 1, b: 1, a: 1}
-  Health: {fileID: 11400000, guid: 54babbed78d821f4cbe5ab3aa0d907a3, type: 2}
-  Speed: {fileID: 11400000, guid: 22cb51ccd1d88e44c813d87adf6d35ca, type: 2}
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 1
   SplotchesColor: {r: 0.8745099, g: 0.5058824, b: 0.043137256, a: 0}
   EatingSpeed: 0.5
   CanEat: 1
-  Distance: {fileID: 11400000, guid: 0f82a40b764b24742a953d97174a2534, type: 2}
+  Distance: {fileID: 0}
 --- !u!212 &1316437707
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -603,6 +604,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.149999, y: 9.299999, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1316437711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1316437705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d09f3265e9341cf459a7e2c6269ed41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanWalk: 0
+  Number: 9
+  Password: 
 --- !u!1 &1516595130
 GameObject:
   m_ObjectHideFlags: 0
@@ -5270,8 +5285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bandit
   SkinColor: {r: 1, g: 1, b: 1, a: 0}
-  Health: 10
-  Speed: 20
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 1
   MarkingColor: {r: 0.61960787, g: 0.86274517, b: 0.7725491, a: 0}
   FurCount: 10000
@@ -5291,6 +5306,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  Hunger: {fileID: 0}
 --- !u!212 &1576515547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5486,9 +5502,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Flutter
   SkinColor: {r: 0.4039216, g: 0.18431373, b: 0.39607847, a: 0}
-  Health: 100
-  Speed: 6
-  CanMove: 1
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   WingColor: {r: 1, g: 0.8039216, b: 0.8392157, a: 1}
   MouseDownEvent:
     m_PersistentCalls:
