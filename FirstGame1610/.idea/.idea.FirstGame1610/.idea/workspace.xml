@@ -11,133 +11,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
-                <marker date="1549912552343" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549912552343" expanded="true" signature="115:345" ph="{...}" />
-                <marker date="1549912552343" expanded="true" signature="274:281" ph="{...}" />
-                <marker date="1549912552343" expanded="true" signature="336:343" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Mammal.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <marker date="1549913191841" expanded="false" signature="6:100" ph="..." />
-                <marker date="1549913191841" expanded="true" signature="130:316" ph="{...}" />
-                <marker date="1549913191841" expanded="true" signature="242:251" ph="{...}" />
-                <marker date="1549913191841" expanded="true" signature="305:314" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Amphibian.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <marker date="1549664195011" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549664195011" expanded="true" signature="111:290" ph="{...}" />
-                <marker date="1549664195011" expanded="true" signature="161:224" ph="{...}" />
-                <marker date="1549664195011" expanded="true" signature="279:288" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Raccoon.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <marker date="1549913092922" expanded="false" signature="6:104" ph="..." />
-                <marker date="1549913092922" expanded="true" signature="135:328" ph="{...}" />
-                <marker date="1549913092922" expanded="true" signature="211:235" ph="{...}" />
-                <marker date="1549913092922" expanded="true" signature="290:326" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Newt.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <marker date="1549912175023" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549912175023" expanded="true" signature="109:345" ph="{...}" />
-                <marker date="1549912175023" expanded="true" signature="225:251" ph="{...}" />
-                <marker date="1549912175023" expanded="true" signature="306:343" ph="{...}" />
+                <marker date="1550696394417" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550696394417" expanded="true" signature="141:264" ph="{...}" />
+                <marker date="1550696394417" expanded="true" signature="186:195" ph="{...}" />
+                <marker date="1550696394417" expanded="true" signature="235:262" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Butterfly.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="30">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1550012970786" expanded="false" signature="6:157" ph="..." />
-                <marker date="1550012970786" expanded="true" signature="190:525" ph="{...}" />
-                <marker date="1550012970786" expanded="true" signature="271:297" ph="{...}" />
-                <marker date="1550012970786" expanded="true" signature="345:407" ph="{...}" />
-                <marker date="1550012970786" expanded="true" signature="461:522" ph="{...}" />
+                <marker date="1550883270579" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550883270579" expanded="true" signature="123:369" ph="{...}" />
+                <marker date="1550883270579" expanded="true" signature="205:212" ph="{...}" />
+                <marker date="1550883270579" expanded="true" signature="267:274" ph="{...}" />
+                <marker date="1550883270579" expanded="true" signature="302:367" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Insect.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <marker date="1550012266089" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550012266089" expanded="true" signature="108:286" ph="{...}" />
-                <marker date="1550012266089" expanded="true" signature="183:193" ph="{...}" />
-                <marker date="1550012266089" expanded="true" signature="248:284" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Bubble.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1549662660366" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549662660366" expanded="true" signature="107:268" ph="{...}" />
-                <marker date="1549662660366" expanded="true" signature="183:243" ph="{...}" />
-                <marker date="1549662660366" expanded="true" signature="259:266" ph="{...}" />
+                <marker date="1550883458323" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550883458323" expanded="true" signature="114:235" ph="{...}" />
+                <marker date="1550883458323" expanded="true" signature="164:171" ph="{...}" />
+                <marker date="1550883458323" expanded="true" signature="226:233" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/EggEvent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Newt.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1548975304728" expanded="false" signature="6:44" ph="..." />
-                <marker date="1548975304728" expanded="true" signature="83:174" ph="{...}" />
-                <marker date="1548975304728" expanded="true" signature="147:172" ph="{...}" />
+                <marker date="1550690633608" expanded="false" signature="6:131" ph="..." />
+                <marker date="1550690633608" expanded="true" signature="162:476" ph="{...}" />
+                <marker date="1550690633608" expanded="true" signature="304:382" ph="{...}" />
+                <marker date="1550690633608" expanded="true" signature="437:474" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Butterfly.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <marker date="1550701807136" expanded="false" signature="6:157" ph="..." />
+                <marker date="1550701807136" expanded="true" signature="196:559" ph="{...}" />
+                <marker date="1550701807136" expanded="true" signature="293:369" ph="{...}" />
+                <marker date="1550701807136" expanded="true" signature="384:420" ph="{...}" />
+                <marker date="1550701807136" expanded="true" signature="436:443" ph="{...}" />
+                <marker date="1550701807136" expanded="true" signature="472:557" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,17 +93,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Bubble.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Insect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Raccoon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MushroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Round.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Amphibian.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Newt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Butterfly.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EggEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaccoonPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MushroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Butterfly.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -178,12 +120,23 @@
         <option value="$PROJECT_DIR$/Assets/Mammal.cs" />
         <option value="$PROJECT_DIR$/Assets/Insect.cs" />
         <option value="$PROJECT_DIR$/Assets/Butterfly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Butterfly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimePowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RaccoonPowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthPowerUP.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpDisappear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="770" />
-    <option name="width" value="1080" />
+    <option name="x" value="960" />
+    <option name="width" value="965" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -248,11 +201,19 @@
       <workItem from="1549911907911" duration="1612000" />
       <workItem from="1549913683711" duration="957000" />
       <workItem from="1550010637786" duration="2344000" />
+      <workItem from="1550193187726" duration="192000" />
+      <workItem from="1550274124618" duration="3005000" />
+      <workItem from="1550359450273" duration="226000" />
+      <workItem from="1550529902839" duration="551000" />
+      <workItem from="1550615692087" duration="1660000" />
+      <workItem from="1550694053678" duration="8405000" />
+      <workItem from="1550794352505" duration="2179000" />
+      <workItem from="1550883238606" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16143000" />
+    <option name="totallyTimeSpent" value="32603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,7 +225,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,10 +274,76 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/MushroomEvent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/MushroomEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FlowerRotate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Round.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Racoon.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Bubble.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Vertibrate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Amphibian.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Vertebrate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Animal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/StringData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ClockTime.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ButterflyColissionEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/IntData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Mammal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Raccoon.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ColorData.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Newt.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ButterflyEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EggEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CaveCreature.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/WingedInsect.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Insect.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Butterfly.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButterflyEvent.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimePowerUp.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <marker date="1550701600887" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550701600887" expanded="true" signature="115:337" ph="{...}" />
+            <marker date="1550701600887" expanded="true" signature="263:272" ph="{...}" />
+            <marker date="1550701600887" expanded="true" signature="326:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550690633612" expanded="false" signature="6:104" ph="..." />
+            <marker date="1550690633612" expanded="true" signature="135:354" ph="{...}" />
+            <marker date="1550690633612" expanded="true" signature="237:261" ph="{...}" />
+            <marker date="1550690633612" expanded="true" signature="316:352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1550704058610" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550704058610" expanded="true" signature="145:526" ph="{...}" />
+            <marker date="1550704058610" expanded="true" signature="236:299" ph="{...}" />
+            <marker date="1550704058610" expanded="true" signature="325:382" ph="{...}" />
+            <marker date="1550704058610" expanded="true" signature="411:445" ph="{...}" />
+            <marker date="1550704058610" expanded="true" signature="463:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SoupHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MushroomEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <marker date="1548878889956" expanded="false" signature="6:44" ph="..." />
             <marker date="1548878889956" expanded="true" signature="88:178" ph="{...}" />
@@ -324,132 +352,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlowerRotate.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Round.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthPowerUP.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpDisappear.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthClick.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <marker date="1549662569524" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549662569524" expanded="true" signature="115:263" ph="{...}" />
-            <marker date="1549662569524" expanded="true" signature="165:172" ph="{...}" />
-            <marker date="1549662569524" expanded="true" signature="227:261" ph="{...}" />
+            <marker date="1550795934446" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550795934446" expanded="true" signature="121:367" ph="{...}" />
+            <marker date="1550795934446" expanded="true" signature="203:210" ph="{...}" />
+            <marker date="1550795934446" expanded="true" signature="265:272" ph="{...}" />
+            <marker date="1550795934446" expanded="true" signature="300:365" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Racoon.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1549912552343" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549912552343" expanded="true" signature="115:345" ph="{...}" />
-            <marker date="1549912552343" expanded="true" signature="274:281" ph="{...}" />
-            <marker date="1549912552343" expanded="true" signature="336:343" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mammal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1549913191841" expanded="false" signature="6:100" ph="..." />
-            <marker date="1549913191841" expanded="true" signature="130:316" ph="{...}" />
-            <marker date="1549913191841" expanded="true" signature="242:251" ph="{...}" />
-            <marker date="1549913191841" expanded="true" signature="305:314" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Amphibian.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <marker date="1549664195011" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549664195011" expanded="true" signature="111:290" ph="{...}" />
-            <marker date="1549664195011" expanded="true" signature="161:224" ph="{...}" />
-            <marker date="1549664195011" expanded="true" signature="279:288" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Raccoon.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <marker date="1549913092922" expanded="false" signature="6:104" ph="..." />
-            <marker date="1549913092922" expanded="true" signature="135:328" ph="{...}" />
-            <marker date="1549913092922" expanded="true" signature="211:235" ph="{...}" />
-            <marker date="1549913092922" expanded="true" signature="290:326" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Newt.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1549912175023" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549912175023" expanded="true" signature="109:345" ph="{...}" />
-            <marker date="1549912175023" expanded="true" signature="225:251" ph="{...}" />
-            <marker date="1549912175023" expanded="true" signature="306:343" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Insect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <marker date="1550012266089" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550012266089" expanded="true" signature="108:286" ph="{...}" />
-            <marker date="1550012266089" expanded="true" signature="183:193" ph="{...}" />
-            <marker date="1550012266089" expanded="true" signature="248:284" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EggEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1548975304728" expanded="false" signature="6:44" ph="..." />
-            <marker date="1548975304728" expanded="true" signature="83:174" ph="{...}" />
-            <marker date="1548975304728" expanded="true" signature="147:172" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Bubble.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1549662660366" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549662660366" expanded="true" signature="107:268" ph="{...}" />
-            <marker date="1549662660366" expanded="true" signature="183:243" ph="{...}" />
-            <marker date="1549662660366" expanded="true" signature="259:266" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Butterfly.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <marker date="1550012970786" expanded="false" signature="6:157" ph="..." />
-            <marker date="1550012970786" expanded="true" signature="190:525" ph="{...}" />
-            <marker date="1550012970786" expanded="true" signature="271:297" ph="{...}" />
-            <marker date="1550012970786" expanded="true" signature="345:407" ph="{...}" />
-            <marker date="1550012970786" expanded="true" signature="461:522" ph="{...}" />
+            <marker date="1550696394417" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550696394417" expanded="true" signature="141:264" ph="{...}" />
+            <marker date="1550696394417" expanded="true" signature="186:195" ph="{...}" />
+            <marker date="1550696394417" expanded="true" signature="235:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Newt.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550690633608" expanded="false" signature="6:131" ph="..." />
+            <marker date="1550690633608" expanded="true" signature="162:476" ph="{...}" />
+            <marker date="1550690633608" expanded="true" signature="304:382" ph="{...}" />
+            <marker date="1550690633608" expanded="true" signature="437:474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Butterfly.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <marker date="1550701807136" expanded="false" signature="6:157" ph="..." />
+            <marker date="1550701807136" expanded="true" signature="196:559" ph="{...}" />
+            <marker date="1550701807136" expanded="true" signature="293:369" ph="{...}" />
+            <marker date="1550701807136" expanded="true" signature="384:420" ph="{...}" />
+            <marker date="1550701807136" expanded="true" signature="436:443" ph="{...}" />
+            <marker date="1550701807136" expanded="true" signature="472:557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerDisappearClick.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaccoonPowerUp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <marker date="1550704974015" expanded="false" signature="6:118" ph="..." />
+            <marker date="1550704974015" expanded="true" signature="160:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1550883458323" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550883458323" expanded="true" signature="114:235" ph="{...}" />
+            <marker date="1550883458323" expanded="true" signature="164:171" ph="{...}" />
+            <marker date="1550883458323" expanded="true" signature="226:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1550883270579" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550883270579" expanded="true" signature="123:369" ph="{...}" />
+            <marker date="1550883270579" expanded="true" signature="205:212" ph="{...}" />
+            <marker date="1550883270579" expanded="true" signature="267:274" ph="{...}" />
+            <marker date="1550883270579" expanded="true" signature="302:367" ph="{...}" />
           </folding>
         </state>
       </provider>
