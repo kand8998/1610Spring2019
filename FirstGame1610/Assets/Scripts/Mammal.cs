@@ -8,17 +8,4 @@ public class Mammal : Vertebrate
 
 	public Color MarkingColor;
 	public int FurCount = 10000;
-	
-	
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		
-	}
 }

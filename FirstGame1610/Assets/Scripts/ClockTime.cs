@@ -6,12 +6,11 @@ public class ClockTime : MonoBehaviour
 {
 	public FloatData GameTime;
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
 		
 	}

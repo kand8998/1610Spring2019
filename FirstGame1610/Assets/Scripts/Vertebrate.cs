@@ -6,11 +6,4 @@ public class Vertebrate : Animal
 {
 	public bool CanMove;
 	
-	void Start () {
-		
-	}
-	
-	void Update () {
-		
-	}
 }

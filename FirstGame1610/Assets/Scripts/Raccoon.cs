@@ -5,17 +5,15 @@ using UnityEngine.Events;
 
 public class Raccoon : Mammal
 {
-	public UnityEvent Event;
+	public UnityEvent OnEvent;
 	public FloatData Hunger;
-	// Use this for initialization
-	void Start () 
-	{
-		Event.Invoke();
-	}
-	
-	// Update is called once per frame
+
 	void Update () 
 	{
+		if (enabled)
+		{
+			OnEvent.Invoke();
+		}
 		transform.Translate(1,0,0);
 	}
 }

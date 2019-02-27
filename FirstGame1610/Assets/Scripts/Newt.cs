@@ -10,14 +10,11 @@ public class Newt : Amphibian
 	public bool CanEat = true;
 	public IntData Distance; 
 	
-	// Use this for initialization
 	void Start () 
 	{
-		print("Blargh!");
 		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
-	// Update is called once per frame
 	void Update () 
 	{
 		transform.Translate(-1,0,0);
