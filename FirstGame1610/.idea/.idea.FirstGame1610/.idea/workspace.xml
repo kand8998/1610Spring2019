@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Vertebrate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="15">
               <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding>
                 <marker date="1551123896691" expanded="false" signature="6:78" ph="..." />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Conditionals.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <marker date="1551125268260" expanded="false" signature="6:78" ph="..." />
                 <marker date="1551125268260" expanded="true" signature="121:469" ph="{...}" />
@@ -61,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EggEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="45">
               <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <marker date="1551126303787" expanded="false" signature="6:44" ph="..." />
@@ -75,15 +75,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchTutorial.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
-                <marker date="1551128503446" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551128503446" expanded="true" signature="124:405" ph="{...}" />
-                <marker date="1551128503446" expanded="true" signature="174:181" ph="{...}" />
-                <marker date="1551128503446" expanded="true" signature="244:403" ph="{...}" />
-                <marker date="1551128503446" expanded="true" signature="284:338" ph="{...}" />
-                <marker date="1551128503446" expanded="true" signature="345:400" ph="{...}" />
+                <marker date="1551225598431" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551225598431" expanded="true" signature="124:402" ph="{...}" />
+                <marker date="1551225598431" expanded="true" signature="174:180" ph="{...}" />
+                <marker date="1551225598431" expanded="true" signature="241:400" ph="{...}" />
+                <marker date="1551225598431" expanded="true" signature="281:336" ph="{...}" />
+                <marker date="1551225598431" expanded="true" signature="343:397" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,20 +97,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EggEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaccoonPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Conditionals.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MushroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaveCreature.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaccoonPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vertebrate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MushroomEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Butterfly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CaveCreature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newt.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -148,9 +148,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="907" />
-    <option name="width" value="1018" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="906" />
+    <option name="width" value="1019" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,11 +223,12 @@
       <workItem from="1550694053678" duration="8405000" />
       <workItem from="1550794352505" duration="2179000" />
       <workItem from="1550883238606" duration="242000" />
+      <workItem from="1551225094765" duration="533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37210000" />
+    <option name="totallyTimeSpent" value="37816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,8 +240,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="814" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="725" y="0" width="815" height="832" extended-state="0" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -427,48 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Vertebrate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <marker date="1551123896691" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551123896691" expanded="true" signature="112:258" ph="{...}" />
-            <marker date="1551123896691" expanded="true" signature="187:194" ph="{...}" />
-            <marker date="1551123896691" expanded="true" signature="249:256" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EggEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <marker date="1551126303787" expanded="false" signature="6:44" ph="..." />
-            <marker date="1551126303787" expanded="true" signature="83:174" ph="{...}" />
-            <marker date="1551126303787" expanded="true" signature="147:171" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Conditionals.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <marker date="1551125268260" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551125268260" expanded="true" signature="121:469" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="216:467" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="235:261" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="268:293" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="313:342" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="349:377" ph="{...}" />
-            <marker date="1551125268260" expanded="true" signature="408:464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -483,17 +441,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchTutorial.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CaveCreature.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551122050431" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551122050431" expanded="true" signature="118:292" ph="{...}" />
+            <marker date="1551122050431" expanded="true" signature="168:226" ph="{...}" />
+            <marker date="1551122050431" expanded="true" signature="281:290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Vertebrate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <marker date="1551123896691" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551123896691" expanded="true" signature="112:258" ph="{...}" />
+            <marker date="1551123896691" expanded="true" signature="187:194" ph="{...}" />
+            <marker date="1551123896691" expanded="true" signature="249:256" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Conditionals.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="9" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <marker date="1551128503446" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551128503446" expanded="true" signature="124:405" ph="{...}" />
-            <marker date="1551128503446" expanded="true" signature="174:181" ph="{...}" />
-            <marker date="1551128503446" expanded="true" signature="244:403" ph="{...}" />
-            <marker date="1551128503446" expanded="true" signature="284:338" ph="{...}" />
-            <marker date="1551128503446" expanded="true" signature="345:400" ph="{...}" />
+            <marker date="1551125268260" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551125268260" expanded="true" signature="121:469" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="216:467" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="235:261" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="268:293" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="313:342" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="349:377" ph="{...}" />
+            <marker date="1551125268260" expanded="true" signature="408:464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EggEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <marker date="1551126303787" expanded="false" signature="6:44" ph="..." />
+            <marker date="1551126303787" expanded="true" signature="83:174" ph="{...}" />
+            <marker date="1551126303787" expanded="true" signature="147:171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchTutorial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <marker date="1551225598431" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551225598431" expanded="true" signature="124:402" ph="{...}" />
+            <marker date="1551225598431" expanded="true" signature="174:180" ph="{...}" />
+            <marker date="1551225598431" expanded="true" signature="241:400" ph="{...}" />
+            <marker date="1551225598431" expanded="true" signature="281:336" ph="{...}" />
+            <marker date="1551225598431" expanded="true" signature="343:397" ph="{...}" />
           </folding>
         </state>
       </provider>
