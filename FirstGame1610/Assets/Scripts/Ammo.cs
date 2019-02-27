@@ -8,5 +8,4 @@ public class Ammo : PowerUpBase
     {
         Value -= SubtractValue;
     }
-
 }

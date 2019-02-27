@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class SwitchTutorial : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () 
-	{
-	}
-	// Update is called once per frame
 	private void Update () 
 	{
 		if (Input.GetKey(KeyCode.UpArrow))
