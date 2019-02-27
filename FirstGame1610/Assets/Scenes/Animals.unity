@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -941,8 +941,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1316437708}
   - component: {fileID: 1316437707}
-  - component: {fileID: 1316437709}
   - component: {fileID: 1316437706}
+  - component: {fileID: 1316437709}
   - component: {fileID: 1316437710}
   - component: {fileID: 1316437711}
   m_Layer: 0
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1316437705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9f96ea2b017d84ba828da991d73019, type: 3}
+  m_Script: {fileID: 11500000, guid: b0a405e88f20c7f4aabf86fa95737ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Newton
@@ -968,7 +968,7 @@ MonoBehaviour:
   Health: {fileID: 0}
   Speed: {fileID: 0}
   CanMove: 1
-  SplotchesColor: {r: 0.8745099, g: 0.5058824, b: 0.043137256, a: 0}
+  SplotchesColor: {r: 0.3679245, g: 0, b: 0.21242109, a: 1}
   EatingSpeed: 0.5
   CanEat: 1
   Distance: {fileID: 0}
@@ -5704,9 +5704,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1576515545}
-  - component: {fileID: 1576515546}
   - component: {fileID: 1576515547}
   - component: {fileID: 1576515548}
+  - component: {fileID: 1576515546}
   m_Layer: 0
   m_Name: Racoon
   m_TagString: Untagged
@@ -5738,30 +5738,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1576515544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d8ee77eac2ef84f98e212336c4cd06, type: 3}
+  m_Script: {fileID: 11500000, guid: 484c4527dcd00774bb01ea654ab76a94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Bandit
-  SkinColor: {r: 1, g: 1, b: 1, a: 0}
+  SkinColor: {r: 0.30644366, g: 0.2756319, b: 0.3584906, a: 0}
   Health: {fileID: 0}
   Speed: {fileID: 0}
-  CanMove: 1
-  MarkingColor: {r: 0.61960787, g: 0.86274517, b: 0.7725491, a: 0}
+  CanMove: 0
+  MarkingColor: {r: 0.763172, g: 0.9245283, b: 0.9213354, a: 0}
   FurCount: 10000
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1576515544}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   Hunger: {fileID: 0}
@@ -5843,7 +5832,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: name
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -6012,9 +6001,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1971238104}
   - component: {fileID: 1971238103}
-  - component: {fileID: 1971238102}
   - component: {fileID: 1971238105}
   - component: {fileID: 1971238106}
+  - component: {fileID: 1971238102}
   m_Layer: 0
   m_Name: ButterflyArt
   m_TagString: Untagged
@@ -6030,28 +6019,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1971238101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 885f2593f519ade45a86073349f21267, type: 3}
+  m_Script: {fileID: 11500000, guid: db0fdb0da3bc3e04e8feaa69029c18ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Flutter
-  SkinColor: {r: 0.4039216, g: 0.18431373, b: 0.39607847, a: 0}
+  SkinColor: {r: 0.67058825, g: 1, b: 0.99515414, a: 1}
   Health: {fileID: 0}
   Speed: {fileID: 0}
-  WingColor: {r: 1, g: 0.8039216, b: 0.8392157, a: 1}
+  WingColor: {r: 1, g: 0.5518868, b: 0.6749782, a: 1}
   MouseDownEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1971238105}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   Event:
@@ -6063,7 +6041,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
