@@ -6,21 +6,19 @@ using UnityEngine.Experimental.PlayerLoop;
 
 public class LightSwitch : MonoBehaviour
 {
-
-    public bool Light;
-    public UnityEvent Event;
+    public UnityEvent OnEvent, OffEvent;
+    public bool OnBool;
 
     private void Update()
     {
-        if (Light)
-            {
-                Event.Invoke();
-            }
-        else
-            {
-                print("try again");
-            } 
+        if (OnBool)
+        {
+            OnEvent.Invoke();
         }
-    
+        else
+        {
+            OffEvent.Invoke();
+        }
     }
+}
  
