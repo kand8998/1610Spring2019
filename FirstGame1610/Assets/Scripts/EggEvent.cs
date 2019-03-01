@@ -9,5 +9,4 @@ public class EggEvent : MonoBehaviour
 	{
 		Event.Invoke();
 	}
-
 }
