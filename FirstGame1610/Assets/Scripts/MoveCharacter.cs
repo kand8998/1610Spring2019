@@ -6,9 +6,11 @@ using UnityEngine.Events;
 public class MoveCharacter : MonoBehaviour
 {
 	public UnityEvent OnGrounded, OffGrounded;
-	public float Speed = 3;
+	public MoveBase CharacterMover;
+	
 	private CharacterController controller;
-	private Vector3 position;
+
+	
 	private void Start ()
 	{
 		controller = GetComponent<CharacterController>();
@@ -16,10 +18,6 @@ public class MoveCharacter : MonoBehaviour
 	
 	private void Update ()
 	{
-		position.y = Input.GetAxis("Vertical")* Speed* Time.deltaTime;
-		position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
-		controller.Move(position);
-		
 		if (controller.isGrounded)
 		{
 			OnGrounded.Invoke();
@@ -28,5 +26,9 @@ public class MoveCharacter : MonoBehaviour
 		{
 			OffGrounded.Invoke();
 		}
+
+		CharacterMover.Move(controller);
+
+		
 	}
 }
