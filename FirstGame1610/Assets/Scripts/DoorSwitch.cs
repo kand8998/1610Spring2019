@@ -7,7 +7,8 @@ public class DoorSwitch : MonoBehaviour
 {
 	public UnityEvent OpenEvent, CloseEvent;
 	public bool OnBool;
-	private void Update () 
+
+	private void OnMouseDown()
 	{
 		if (OnBool)
 		{

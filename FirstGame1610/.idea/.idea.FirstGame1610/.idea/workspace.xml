@@ -59,14 +59,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <marker date="1551473107954" expanded="false" signature="6:104" ph="..." />
-                <marker date="1551473107954" expanded="true" signature="145:327" ph="{...}" />
-                <marker date="1551473107954" expanded="true" signature="235:325" ph="{...}" />
-                <marker date="1551473107954" expanded="true" signature="252:283" ph="{...}" />
-                <marker date="1551473107954" expanded="true" signature="290:322" ph="{...}" />
+                <marker date="1551824900047" expanded="false" signature="6:104" ph="..." />
+                <marker date="1551824900047" expanded="true" signature="145:331" ph="{...}" />
+                <marker date="1551824900047" expanded="true" signature="239:329" ph="{...}" />
+                <marker date="1551824900047" expanded="true" signature="256:287" ph="{...}" />
+                <marker date="1551824900047" expanded="true" signature="294:326" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="905" />
     <option name="width" value="1020" />
     <option name="height" value="1040" />
@@ -262,12 +262,12 @@
       <workItem from="1551399000293" duration="1023000" />
       <workItem from="1551472811916" duration="459000" />
       <workItem from="1551740615789" duration="2684000" />
-      <workItem from="1551824377292" duration="233000" />
+      <workItem from="1551824377292" duration="524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47350000" />
+    <option name="totallyTimeSpent" value="47969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,14 +736,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorSwitch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1551473107954" expanded="false" signature="6:104" ph="..." />
-            <marker date="1551473107954" expanded="true" signature="145:327" ph="{...}" />
-            <marker date="1551473107954" expanded="true" signature="235:325" ph="{...}" />
-            <marker date="1551473107954" expanded="true" signature="252:283" ph="{...}" />
-            <marker date="1551473107954" expanded="true" signature="290:322" ph="{...}" />
+            <marker date="1551824900047" expanded="false" signature="6:104" ph="..." />
+            <marker date="1551824900047" expanded="true" signature="145:331" ph="{...}" />
+            <marker date="1551824900047" expanded="true" signature="239:329" ph="{...}" />
+            <marker date="1551824900047" expanded="true" signature="256:287" ph="{...}" />
+            <marker date="1551824900047" expanded="true" signature="294:326" ph="{...}" />
           </folding>
         </state>
       </provider>
