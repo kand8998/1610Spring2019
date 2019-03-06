@@ -1079,7 +1079,6 @@ Transform:
   m_LocalScale: {x: 0.74693, y: 0.74693, z: 0.74693}
   m_Children:
   - {fileID: 1971238104}
-  - {fileID: 1516595131}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1504,11 +1503,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1516595130}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -7.75, y: -0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.4, y: -1.3, z: -0}
+  m_LocalScale: {x: 1.9607844, y: 1.9607852, z: 1.9607852}
   m_Children: []
-  m_Father: {fileID: 1150719061}
-  m_RootOrder: 1
+  m_Father: {fileID: 1971238104}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!199 &1516595132
 ParticleSystemRenderer:
@@ -6642,6 +6641,8 @@ GameObject:
   - component: {fileID: 1971238104}
   - component: {fileID: 1971238103}
   - component: {fileID: 1971238102}
+  - component: {fileID: 1971238105}
+  - component: {fileID: 1971238106}
   m_Layer: 0
   m_Name: ButterflyArt
   m_TagString: Untagged
@@ -6678,6 +6679,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1971238106}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -6734,12 +6746,43 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1971238101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9, y: -7.9, z: 0}
+  m_LocalPosition: {x: 7, y: -11.4, z: 0}
   m_LocalScale: {x: 0.51, y: 0.51, z: 0.51}
-  m_Children: []
+  m_Children:
+  - {fileID: 1516595131}
   m_Father: {fileID: 1150719061}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1971238105
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971238101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.63, y: 6.04, z: 3}
+  m_Center: {x: 0, y: -0.0000021457672, z: 0}
+--- !u!95 &1971238106
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971238101}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4199a92b990e9bc46bf418024087054a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2001958229
 GameObject:
   m_ObjectHideFlags: 0

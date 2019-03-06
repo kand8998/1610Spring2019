@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="75">
               <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <marker date="1551824486962" expanded="false" signature="6:78" ph="..." />
@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoorSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -67,6 +67,20 @@
                 <marker date="1551824900047" expanded="true" signature="239:329" ph="{...}" />
                 <marker date="1551824900047" expanded="true" signature="256:287" ph="{...}" />
                 <marker date="1551824900047" expanded="true" signature="294:326" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <marker date="1551907090095" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551907090095" expanded="true" signature="114:171" ph="{...}" />
+                <marker date="1551907090095" expanded="true" signature="133:169" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,7 +182,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Newt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Round.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vertebrate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Raccoon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClickPowerUps.cs" />
         <option value="$PROJECT_DIR$/Assets/GameValues/CharacterData.cs" />
@@ -179,6 +192,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveWithAxis.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs" />
       </list>
     </option>
   </component>
@@ -263,11 +277,12 @@
       <workItem from="1551472811916" duration="459000" />
       <workItem from="1551740615789" duration="2684000" />
       <workItem from="1551824377292" duration="524000" />
+      <workItem from="1551906692783" duration="397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47969000" />
+    <option name="totallyTimeSpent" value="48366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,7 +295,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="724" y="0" width="816" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,18 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1551307725338" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551307725338" expanded="true" signature="114:171" ph="{...}" />
-            <marker date="1551307725338" expanded="true" signature="133:169" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -710,6 +712,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <marker date="1551824486962" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551824486962" expanded="true" signature="129:328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveSingleJump.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -719,17 +732,6 @@
             <marker date="1551742891470" expanded="true" signature="136:491" ph="{...}" />
             <marker date="1551742891470" expanded="true" signature="201:489" ph="{...}" />
             <marker date="1551742891470" expanded="true" signature="269:325" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <marker date="1551824486962" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551824486962" expanded="true" signature="129:328" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -744,6 +746,18 @@
             <marker date="1551824900047" expanded="true" signature="239:329" ph="{...}" />
             <marker date="1551824900047" expanded="true" signature="256:287" ph="{...}" />
             <marker date="1551824900047" expanded="true" signature="294:326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <marker date="1551907090095" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551907090095" expanded="true" signature="114:171" ph="{...}" />
+            <marker date="1551907090095" expanded="true" signature="133:169" ph="{...}" />
           </folding>
         </state>
       </provider>
