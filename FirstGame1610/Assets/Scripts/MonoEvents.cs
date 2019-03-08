@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class MonoEvents : MonoBehaviour
 {
-	public UnityEvent StartEvent, EnableEvent, MouseDownEvent, UpdateEvent;
+	public UnityEvent StartEvent, EnableEvent, TriggerEnterEvent, MouseDownEvent, UpdateEvent;
 	void Start () 
 	{
 		StartEvent.Invoke();
@@ -16,6 +16,11 @@ public class MonoEvents : MonoBehaviour
 	{
 		EnableEvent.Invoke();
 		transform.Rotate(0,0,0);
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		TriggerEnterEvent.Invoke();
 	}
 
 	private void OnMouseDown()
