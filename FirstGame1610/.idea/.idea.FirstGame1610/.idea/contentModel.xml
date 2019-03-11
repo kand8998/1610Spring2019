@@ -39,9 +39,11 @@
           <e p="PowerUpEventEnable.cs" t="Include" />
           <e p="Raccoon.cs" t="Include" />
           <e p="RaccoonPowerUp.cs" t="Include" />
+          <e p="ReturnFunctions.cs" t="Include" />
           <e p="Round.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="SwitchTutorial.cs" t="Include" />
+          <e p="UpdateBar.cs" t="Include" />
           <e p="Vertebrate.cs" t="Include" />
           <e p="WingedInsect.cs" t="Include" />
         </e>

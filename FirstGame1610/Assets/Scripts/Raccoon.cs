@@ -8,6 +8,11 @@ public class Raccoon : Mammal
 	public UnityEvent OnEvent;
 	public FloatData Hunger;
 
+	private void Start()
+	{
+		newColor = Color.magenta;
+	}
+
 	void Update () 
 	{
 		if (enabled)

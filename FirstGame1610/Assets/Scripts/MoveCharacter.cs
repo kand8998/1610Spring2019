@@ -28,7 +28,6 @@ public class MoveCharacter : MonoBehaviour
 		}
 
 		CharacterMover.Move(controller);
-
 		
 	}
 }
