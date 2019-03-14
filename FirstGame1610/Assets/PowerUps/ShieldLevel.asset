@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 703cb21e07d9ceb4abf5ca9d4cb8eab5, type: 3}
   m_Name: ShieldLevel
   m_EditorClassIdentifier: 
-  Value: 20
+  Value: 1

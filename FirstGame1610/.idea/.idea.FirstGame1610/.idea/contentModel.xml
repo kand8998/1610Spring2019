@@ -35,6 +35,7 @@
           <e p="MoveWithAxis.cs" t="Include" />
           <e p="MushroomEvent.cs" t="Include" />
           <e p="Newt.cs" t="Include" />
+          <e p="PowerUpBarEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpEventEnable.cs" t="Include" />
           <e p="Raccoon.cs" t="Include" />
@@ -44,6 +45,7 @@
           <e p="StringData.cs" t="Include" />
           <e p="SwitchTutorial.cs" t="Include" />
           <e p="UpdateBar.cs" t="Include" />
+          <e p="UpdatePowerUpBar.cs" t="Include" />
           <e p="Vertebrate.cs" t="Include" />
           <e p="WingedInsect.cs" t="Include" />
         </e>
