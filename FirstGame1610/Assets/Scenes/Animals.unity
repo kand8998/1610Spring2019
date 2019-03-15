@@ -401,9 +401,9 @@ RectTransform:
   m_Father: {fileID: 2054726697}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -196, y: -55}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -840, y: -55}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &91711325
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 91711323}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -935,7 +935,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.00005
+          m_FloatArgument: -0.00013
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1513,7 +1513,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1045093591}
   - component: {fileID: 1045093592}
-  - component: {fileID: 1045093593}
   m_Layer: 0
   m_Name: RaccoonPowerUp
   m_TagString: Untagged
@@ -1604,33 +1603,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1045093593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1045093590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5d5b218992ed8148a3c0c19156b3495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UpdateEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 73a66df00c84c494bb670529f0797ac6, type: 2}
-        m_MethodName: OnPowerUp
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -0.5
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -2140,7 +2112,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   Name: Newton
   SkinColor: {r: 1, g: 1, b: 1, a: 1}
-  Health: {fileID: 11400000, guid: 7a0b5b8ddd9127e42af868b404bd4204, type: 2}
+  Health: {fileID: 0}
   Speed: {fileID: 11400000, guid: 38dd258e0324ed145bdb994027ed9d96, type: 2}
   CanMove: 1
   SplotchesColor: {r: 0.3679245, g: 0, b: 0.21242109, a: 1}
@@ -2374,14 +2346,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478584929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7278,6 +7250,7 @@ GameObject:
   - component: {fileID: 1642746427}
   - component: {fileID: 1642746428}
   - component: {fileID: 1642746429}
+  - component: {fileID: 1642746430}
   m_Layer: 0
   m_Name: RaccoonPowerUpArt
   m_TagString: Untagged
@@ -7368,6 +7341,71 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.7300003, y: 2.6300004, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1642746430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642746425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d5b218992ed8148a3c0c19156b3495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 73a66df00c84c494bb670529f0797ac6, type: 2}
+        m_MethodName: OnPowerUp
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.005
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  MouseDownEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 91711325}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1113736147}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1935285388}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1678449230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7625,7 +7663,6 @@ GameObject:
   - component: {fileID: 1935285389}
   - component: {fileID: 1935285388}
   - component: {fileID: 1935285391}
-  - component: {fileID: 1935285390}
   m_Layer: 5
   m_Name: PowerUpBar
   m_TagString: Untagged
@@ -7646,9 +7683,9 @@ RectTransform:
   m_Father: {fileID: 2054726697}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -158, y: -44}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -802, y: -44}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1935285388
@@ -7657,7 +7694,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935285386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -7685,18 +7722,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935285386}
   m_CullTransparentMesh: 0
---- !u!114 &1935285390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1935285386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90b537a39e5db83428f30a353bf15037, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FillNumber: {fileID: 11400000, guid: 53b155becb8cf6e408deaf5b90da30b4, type: 2}
 --- !u!114 &1935285391
 MonoBehaviour:
   m_ObjectHideFlags: 0

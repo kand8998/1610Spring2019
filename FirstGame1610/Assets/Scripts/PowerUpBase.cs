@@ -5,14 +5,17 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUpBase : ScriptableObject
 {
-	public float Value = 20;
-	void OnEnable()
+	[SerializeField] private float value;
+	
+
+	public float Value
 	{
-		
+		get { return value; }
+		set { this.value = value; }
+	}
+	public void OnPowerUp(float floatInput)
+	{
+		Value += floatInput;
 	}
 
-	public void OnPowerUp(float addValue)
-	{
-		Value += addValue;
-	}
 }

@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Experimental.UIElements;
 
 public class PowerUpBarEvent : MonoBehaviour
 {
 
-	public UnityEvent UpdateEvent;
+	public UnityEvent UpdateEvent, MouseDownEvent;
 	private void Start () 
 	{
 		
@@ -14,11 +15,11 @@ public class PowerUpBarEvent : MonoBehaviour
 	
 	private void Update () 
 	{
-	
+		UpdateEvent.Invoke();
 	}
 
 	private void OnMouseDown()
 	{
-		UpdateEvent.Invoke();
+		MouseDownEvent.Invoke();
 	}
 }

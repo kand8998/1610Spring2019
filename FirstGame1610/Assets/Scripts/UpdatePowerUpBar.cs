@@ -13,7 +13,8 @@ public class UpdatePowerUpBar : MonoBehaviour
 	{
 		BarImage = GetComponent<Image>();
 	}
-	
+
+
 	void Update ()
 	{
 		BarImage.fillAmount = FillNumber.Value;
