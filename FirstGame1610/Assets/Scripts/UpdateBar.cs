@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UpdateBar : MonoBehaviour
 {
-
+	public PowerUpBase Value;
 	private Image BarImage;
 	public FloatData FillNumber;
 	

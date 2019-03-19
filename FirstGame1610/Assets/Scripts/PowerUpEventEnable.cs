@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class PowerUpEventEnable : MonoBehaviour
 {
-
+	
 	public UnityEvent MouseDownEvent;
 
 	private void OnMouseDown()
@@ -14,7 +14,8 @@ public class PowerUpEventEnable : MonoBehaviour
 	}
 	
 
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	

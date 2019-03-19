@@ -1,19 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.Experimental.UIElements;
+using UnityEngine.XR.WSA.Input;
 
 public class PowerUpBarEvent : MonoBehaviour
 {
-
-	public UnityEvent UpdateEvent, MouseDownEvent;
-	private void Start () 
+	public PowerUpBase Value;
+	public UnityEvent UpdateEvent, MouseDownEvent, StartEvent;
+	
+	private void Start ()
 	{
-		
+		StartEvent.Invoke();
 	}
 	
-	private void Update () 
+	private void Update ()
 	{
 		UpdateEvent.Invoke();
 	}
@@ -21,5 +26,6 @@ public class PowerUpBarEvent : MonoBehaviour
 	private void OnMouseDown()
 	{
 		MouseDownEvent.Invoke();
+		UpdateEvent.Invoke();
 	}
 }

@@ -893,6 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf886f28526deb04db6702118ed816a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Value: {fileID: 0}
   FillNumber: {fileID: 11400000, guid: 7f1756e4027d0fd4f915dd31f069abfd, type: 2}
 --- !u!114 &268200972
 MonoBehaviour:
@@ -2304,6 +2305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf886f28526deb04db6702118ed816a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Value: {fileID: 0}
   FillNumber: {fileID: 11400000, guid: fa37d19dd0e4b694bacdbea4726cf8f0, type: 2}
 --- !u!1 &1478584929
 GameObject:
@@ -7352,6 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d5b218992ed8148a3c0c19156b3495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Value: {fileID: 0}
   UpdateEvent:
     m_PersistentCalls:
       m_Calls:
@@ -7362,7 +7365,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.005
+          m_FloatArgument: -0.001
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -7403,6 +7406,22 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  StartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 73a66df00c84c494bb670529f0797ac6, type: 2}
+        m_MethodName: set_Value
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 2
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -7708,10 +7727,10 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 1b6e8fe4146f86246846a3c5cf132856, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
