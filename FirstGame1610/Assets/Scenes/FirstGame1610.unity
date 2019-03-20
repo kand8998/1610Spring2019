@@ -975,6 +975,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  TriggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   MouseDownEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6063,6 +6068,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   EnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  TriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -11494,7 +11504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77f12c35b10f5f6488d151748d01fc1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameTime: {fileID: 0}
+  GameTime: {fileID: 11400000, guid: 7f1756e4027d0fd4f915dd31f069abfd, type: 2}
 --- !u!65 &1234063960
 BoxCollider:
   m_ObjectHideFlags: 0
