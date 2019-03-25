@@ -19,11 +19,13 @@
           <e p="CaveCreature.cs" t="Include" />
           <e p="ClickPowerUps.cs" t="Include" />
           <e p="ClockTime.cs" t="Include" />
+          <e p="Collection.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
           <e p="Conditionals.cs" t="Include" />
           <e p="DisguisePowerUp.cs" t="Include" />
           <e p="DoorSwitch.cs" t="Include" />
           <e p="EggEvent.cs" t="Include" />
+          <e p="FunctionsWithParams.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LightSwitch.cs" t="Include" />
