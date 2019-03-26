@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class Butterfly : WingedInsect
 {
-	public UnityEvent MouseDownEvent;
 	void Start()
 	{
 		print("Hello There!");
@@ -14,7 +13,6 @@ public class Butterfly : WingedInsect
 
 	private void OnMouseDown()
 	{
-		MouseDownEvent.Invoke();
 		GetComponent<SpriteRenderer>().color = WingColor;
 	}
 }
