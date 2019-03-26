@@ -11,7 +11,7 @@ using UnityEngine.XR.WSA.Input;
 public class PowerUpBarEvent : MonoBehaviour
 {
 	public PowerUpBase Value;
-	public UnityEvent UpdateEvent, MouseDownEvent, StartEvent;
+	public UnityEvent StartEvent, UpdateEvent, TriggerEnterEvent;
 	
 	private void Start ()
 	{
@@ -20,12 +20,12 @@ public class PowerUpBarEvent : MonoBehaviour
 	
 	private void Update ()
 	{
-		UpdateEvent.Invoke();
+	
 	}
 
-	private void OnMouseDown()
+	private void OnTriggerEnter(Collider other)
 	{
-		MouseDownEvent.Invoke();
 		UpdateEvent.Invoke();
+		TriggerEnterEvent.Invoke();
 	}
 }

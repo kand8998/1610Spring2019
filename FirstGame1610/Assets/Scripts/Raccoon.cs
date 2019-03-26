@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class Raccoon : Mammal
 {
-	public UnityEvent OnEvent;
 	public FloatData Hunger;
 
 	private void Start()
@@ -13,12 +12,11 @@ public class Raccoon : Mammal
 		newColor = Color.magenta;
 	}
 
-	void Update () 
+	private void Update () 
 	{
 		if (enabled)
 		{
-			OnEvent.Invoke();
+			transform.Translate(1,0,0);
 		}
-		transform.Translate(1,0,0);
 	}
 }
