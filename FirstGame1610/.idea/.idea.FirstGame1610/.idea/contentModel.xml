@@ -28,6 +28,7 @@
           <e p="Insect.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="LightSwitch.cs" t="Include" />
+          <e p="Loop.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="MoveBase.cs" t="Include" />
