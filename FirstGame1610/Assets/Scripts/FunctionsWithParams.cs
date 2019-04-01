@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FunctionsWithParams : MonoBehaviour {
 
-	void Start () 
+	private void Start () 
 	{
 		AddData(12.5f, 8.5f);
 	}

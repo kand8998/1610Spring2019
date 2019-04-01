@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 [CreateAssetMenu]
 public class StateMachine : ScriptableObject
 {
@@ -11,12 +13,16 @@ public class StateMachine : ScriptableObject
 		Playing,
 		Ending
 	}
-
 	public States CurrentStates;
+	
+	public void ChangeState(States newState)
+	{
+		CurrentStates = newState;
+	}
 
 	public void OnSwitch() 
 	{
-		switch (currentStates)
+		switch (CurrentStates)
 		{
 			case States.Starting:
 				StartingEvent.Invoke();
@@ -27,6 +33,8 @@ public class StateMachine : ScriptableObject
 			case States.Ending:
 				EndingEvent.Invoke();
 				break;
+			default:
+				throw new ArgumentOutOfRangeException();
 		}
 	}
 }

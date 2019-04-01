@@ -5,5 +5,4 @@ using UnityEngine;
 public class Amphibian : CaveCreature
 {
 	public Color SplotchesColor;
-	
 }

@@ -18,12 +18,12 @@ public class Animal : MonoBehaviour
 		print("Move");
 	}
 
-	void Start () 
+	private void Start () 
 	{
 		Event.Invoke();
 	}
 	  
-	void Update ()
+	private void Update ()
 	{
 		
 	}
