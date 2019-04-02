@@ -8,13 +8,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 240a622d0cd1f2d4993cae39cbdc8379, type: 3}
-  m_Name: PowerUpStates
+  m_Script: {fileID: 11500000, guid: ec61beb4d5a78d24190eba4a47fe8933, type: 3}
+  m_Name: PowerUps
   m_EditorClassIdentifier: 
-  StartingEvent:
+  ShieldEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 21300006, guid: 638f21e85c4027547af7c4ff742d70fa, type: 3}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -27,14 +27,14 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  PlayingEvent:
+  RaccoonEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  EndingEvent:
+  DisguiseEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CurrentStates: 0
+  CurrentPowerUp: 0
