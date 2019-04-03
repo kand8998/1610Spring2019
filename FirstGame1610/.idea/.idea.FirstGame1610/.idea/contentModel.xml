@@ -24,6 +24,7 @@
           <e p="DisguisePowerUp.cs" t="Include" />
           <e p="DoorSwitch.cs" t="Include" />
           <e p="EggEvent.cs" t="Include" />
+          <e p="Forces.cs" t="Include" />
           <e p="FunctionsWithParams.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
           <e p="IntData.cs" t="Include" />

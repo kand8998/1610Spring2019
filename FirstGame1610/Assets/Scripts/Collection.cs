@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu]
 public class Collection : ScriptableObject
 {
     public List<FloatData> CollectionList;
-    
     public void Collect(FloatData obj)
     {
         CollectionList.Add(obj);
@@ -38,9 +38,11 @@ public class Collection : ScriptableObject
             if (obj.name == "PlayerScore")
             {
                 Debug.Log("We have" + obj.Value + "Points!");
+                
             }
         }
     }
+    
 
     public void HealthInfo()
     {
