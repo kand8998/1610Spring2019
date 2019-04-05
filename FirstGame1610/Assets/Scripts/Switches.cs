@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Switches : MonoBehaviour 
+public class Switches : MonoBehaviour
 {
 	public enum States
 	{
@@ -16,7 +16,7 @@ public class Switches : MonoBehaviour
 	public States CurrentState;
 	public UnityEvent StartingEvent, PlayingEvent, EndingEvent;
 	
-	private void Update () 
+	public void Update () 
 	{
 		switch (CurrentState)
 		{
@@ -27,7 +27,7 @@ public class Switches : MonoBehaviour
 				PlayingEvent.Invoke();
 				break;
 			case States.Ending:
-				EndingEvent.Invoke();
+					EndingEvent.Invoke();
 				break;
 			default:
 				throw new ArgumentOutOfRangeException();
