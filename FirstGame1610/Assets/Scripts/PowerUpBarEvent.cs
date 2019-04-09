@@ -10,9 +10,7 @@ using UnityEngine.XR.WSA.Input;
 
 public class PowerUpBarEvent : MonoBehaviour
 {
-	public PowerUpBase Value;
 	public UnityEvent StartEvent, UpdateEvent, TriggerEnterEvent;
-	
 	private void Start ()
 	{
 		StartEvent.Invoke();
@@ -20,12 +18,11 @@ public class PowerUpBarEvent : MonoBehaviour
 	
 	private void Update ()
 	{
-	
+		UpdateEvent.Invoke();
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
-		UpdateEvent.Invoke();
 		TriggerEnterEvent.Invoke();
 	}
 }
