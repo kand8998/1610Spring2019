@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class EnemyAI : MonoBehaviour
 {
+	public UnityEvent TriggerEvent;
 	public Transform Player;
 	private NavMeshAgent agent;
-	
-	void Start ()
+	private void Start ()
 	{
 		agent = GetComponent<NavMeshAgent>();
 	}
@@ -16,5 +17,10 @@ public class EnemyAI : MonoBehaviour
 	private void Update()
 	{
 		agent.destination = Player.position;
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		TriggerEvent.Invoke();
 	}
 }
