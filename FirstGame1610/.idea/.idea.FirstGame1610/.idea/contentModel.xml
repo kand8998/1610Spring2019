@@ -40,6 +40,7 @@
           <e p="MoveWithAxis.cs" t="Include" />
           <e p="MushroomEvent.cs" t="Include" />
           <e p="Newt.cs" t="Include" />
+          <e p="Porcupine.cs" t="Include" />
           <e p="PowerUpBarEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpEventEnable.cs" t="Include" />

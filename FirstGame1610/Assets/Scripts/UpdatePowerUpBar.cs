@@ -9,13 +9,13 @@ public class UpdatePowerUpBar : MonoBehaviour
 	private Image BarImage;
 	public PowerUpBase FillNumber;
 	
-	void Start ()
+	private void Start ()
 	{
 		BarImage = GetComponent<Image>();
 	}
 
 
-	void Update ()
+	private void Update ()
 	{
 		BarImage.fillAmount = FillNumber.Value;
 	}
