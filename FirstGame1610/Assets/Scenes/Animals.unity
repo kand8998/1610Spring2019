@@ -2924,16 +2924,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218822442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -26.880236}
-  m_LocalScale: {x: 0.03078983, y: 0.035617236, z: 0.043435656}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9445837, y: 1.0534502, z: 1.3489304}
   m_Children:
   - {fileID: 157487169}
-  m_Father: {fileID: 429644704}
-  m_RootOrder: 2
+  m_Father: {fileID: 1593898473}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 85.16, y: -9.05}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -12, y: -12}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218822444
@@ -4648,7 +4648,6 @@ RectTransform:
   m_Children:
   - {fileID: 1111206475}
   - {fileID: 1593898473}
-  - {fileID: 218822443}
   m_Father: {fileID: 845634347}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5538,17 +5537,6 @@ MonoBehaviour:
   TriggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1360633666}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 786830203}
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -13209,7 +13197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &845634347
 Transform:
   m_ObjectHideFlags: 0
@@ -13246,7 +13234,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 52
+  field of view: 72
   orthographic: 0
   orthographic size: 19.856497
   m_Depth: 0
@@ -42544,13 +42532,14 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -26.880236}
   m_LocalScale: {x: 0.03259619, y: 0.03381008, z: 0.032200072}
-  m_Children: []
+  m_Children:
+  - {fileID: 218822443}
   m_Father: {fileID: 429644704}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -33.51998, y: -8.649991}
+  m_AnchoredPosition: {x: -20.3, y: -3.3}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1593898474
