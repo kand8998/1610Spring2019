@@ -40,7 +40,6 @@
           <e p="MoveWithAxis.cs" t="Include" />
           <e p="MushroomEvent.cs" t="Include" />
           <e p="Newt.cs" t="Include" />
-          <e p="Porcupine.cs" t="Include" />
           <e p="PowerUpBarEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpEventEnable.cs" t="Include" />
@@ -49,6 +48,7 @@
           <e p="RaccoonPowerUp.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
           <e p="Round.cs" t="Include" />
+          <e p="RunAnims.cs" t="Include" />
           <e p="StateMachine.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="Switches.cs" t="Include" />
