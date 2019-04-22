@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="165">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1555201809619" expanded="false" signature="6:126" ph="..." />
@@ -124,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="225">
               <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <marker date="1553625802603" expanded="false" signature="6:104" ph="..." />
@@ -154,17 +154,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GameValues/FloatData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
-                <marker date="1552016187430" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552016187430" expanded="true" signature="139:467" ph="{...}" />
-                <marker date="1552016187430" expanded="true" signature="207:285" ph="{...}" />
-                <marker date="1552016187430" expanded="true" signature="332:373" ph="{...}" />
-                <marker date="1552016187430" expanded="true" signature="421:465" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="6:104" ph="..." />
+                <marker date="1555975672541" expanded="true" signature="165:644" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="267:345" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="392:433" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="481:525" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="552:642" ph="{...}" />
+                <marker date="1555975672541" expanded="true" signature="582:636" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -254,7 +256,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WingedInsect.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameValues/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ReturnFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs" />
@@ -279,6 +280,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Porcupine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RunAnims.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameValues/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -398,11 +400,12 @@
       <workItem from="1555532302282" duration="1446000" />
       <workItem from="1555623394893" duration="510000" />
       <workItem from="1555801006305" duration="485000" />
+      <workItem from="1555975049834" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84782000" />
+    <option name="totallyTimeSpent" value="85405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,6 +1006,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RunAnims.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <marker date="1555623657906" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555623657906" expanded="true" signature="117:298" ph="{...}" />
+            <marker date="1555623657906" expanded="true" signature="188:230" ph="{...}" />
+            <marker date="1555623657906" expanded="true" signature="256:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Round.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1015,9 +1031,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1555201809619" expanded="false" signature="6:126" ph="..." />
+            <marker date="1555201809619" expanded="true" signature="164:471" ph="{...}" />
+            <marker date="1555201809619" expanded="true" signature="277:323" ph="{...}" />
+            <marker date="1555201809619" expanded="true" signature="347:392" ph="{...}" />
+            <marker date="1555201809619" expanded="true" signature="438:469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Raccoon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="225">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="39" />
           <folding>
             <marker date="1553625802603" expanded="false" signature="6:104" ph="..." />
@@ -1046,41 +1076,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameValues/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
-            <marker date="1552016187430" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552016187430" expanded="true" signature="139:467" ph="{...}" />
-            <marker date="1552016187430" expanded="true" signature="207:285" ph="{...}" />
-            <marker date="1552016187430" expanded="true" signature="332:373" ph="{...}" />
-            <marker date="1552016187430" expanded="true" signature="421:465" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RunAnims.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1555623657906" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555623657906" expanded="true" signature="117:298" ph="{...}" />
-            <marker date="1555623657906" expanded="true" signature="188:230" ph="{...}" />
-            <marker date="1555623657906" expanded="true" signature="256:296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1555201809619" expanded="false" signature="6:126" ph="..." />
-            <marker date="1555201809619" expanded="true" signature="164:471" ph="{...}" />
-            <marker date="1555201809619" expanded="true" signature="277:323" ph="{...}" />
-            <marker date="1555201809619" expanded="true" signature="347:392" ph="{...}" />
-            <marker date="1555201809619" expanded="true" signature="438:469" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="6:104" ph="..." />
+            <marker date="1555975672541" expanded="true" signature="165:644" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="267:345" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="392:433" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="481:525" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="552:642" ph="{...}" />
+            <marker date="1555975672541" expanded="true" signature="582:636" ph="{...}" />
           </folding>
         </state>
       </provider>
