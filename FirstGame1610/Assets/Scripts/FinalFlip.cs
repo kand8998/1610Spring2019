@@ -8,8 +8,7 @@ public class FinalFlip : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			transform.Rotate(0,180,0);
+			return transform.Rotate(0,180,0);
 		}
-		
 	}
 }
