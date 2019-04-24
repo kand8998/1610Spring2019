@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class FinalFlip : MonoBehaviour 
 {
-	private void Start () {
-		
-	}
-	
 	private void Update ()
 	{
 		if (Input.GetKey(KeyCode.LeftArrow))

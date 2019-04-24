@@ -11,6 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04660e459f49e7444b8c16c248df43b4, type: 3}
   m_Name: CollectedObjects
   m_EditorClassIdentifier: 
-  CollectionList:
-  - {fileID: 11400000, guid: a39667602af986d448251c852d5d6962, type: 2}
-  - {fileID: 11400000, guid: a39667602af986d448251c852d5d6962, type: 2}
+  CollectionList: []
