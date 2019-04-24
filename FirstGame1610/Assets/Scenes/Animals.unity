@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 36831490}
   - component: {fileID: 36831489}
   - component: {fileID: 36831492}
+  - component: {fileID: 36831491}
   m_Layer: 0
   m_Name: BigFootController
   m_TagString: Untagged
@@ -730,6 +731,17 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 7.4, y: 3.5, z: -2.6}
+--- !u!114 &36831491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36831487}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cce1444dcad8524588f5b5b0e3cd8a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &36831492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1763,7 +1775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141697206}
   - component: {fileID: 141697207}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Tail 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2299,7 +2311,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4114824711428946, guid: d8d98060e7454b54fb45cf543bc7eddf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 122.9
+      value: 133.5
       objectReference: {fileID: 0}
     - target: {fileID: 4114824711428946, guid: d8d98060e7454b54fb45cf543bc7eddf, type: 2}
       propertyPath: m_LocalPosition.y
@@ -3780,7 +3792,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4144033261687188, guid: 93836a94fcbe34f4b9e1ab90efce4ef8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 281.77
+      value: 306.4
       objectReference: {fileID: 0}
     - target: {fileID: 4144033261687188, guid: 93836a94fcbe34f4b9e1ab90efce4ef8, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5828,6 +5840,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 540524570}
         m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 36831491}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13574,7 +13597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &845634347
 Transform:
   m_ObjectHideFlags: 0
@@ -19913,7 +19936,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045093590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 133.12, y: -4.1221166, z: 0.0703125}
+  m_LocalPosition: {x: 116.3, y: -4.1221166, z: 0.0703125}
   m_LocalScale: {x: 0.24089243, y: 0.24089243, z: 0.24089243}
   m_Children:
   - {fileID: 1642746426}
@@ -25793,7 +25816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1153181062}
   - component: {fileID: 1153181063}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Front Legs 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47558,10 +47581,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1576515545}
   - component: {fileID: 1576515547}
-  - component: {fileID: 1576515546}
-  - component: {fileID: 1576515549}
   - component: {fileID: 1576515548}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Racoon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47587,30 +47608,6 @@ Transform:
   m_Father: {fileID: 2124775094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1576515546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1576515544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 484c4527dcd00774bb01ea654ab76a94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Name: Bandit
-  SkinColor: {r: 0.30644366, g: 0.2756319, b: 0.3584906, a: 0}
-  Health: {fileID: 11400000, guid: fa37d19dd0e4b694bacdbea4726cf8f0, type: 2}
-  Speed: {fileID: 11400000, guid: 38dd258e0324ed145bdb994027ed9d96, type: 2}
-  CanMove: 1
-  MarkingColor: {r: 0.763172, g: 0.9245283, b: 0.9213354, a: 0}
-  FurCount: 10000
-  Hunger: {fileID: 11400000, guid: 78f3e6436d599cb4889ef7cde36d7d38, type: 2}
 --- !u!212 &1576515547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47675,18 +47672,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &1576515549
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1576515544}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 15.650002, y: 6.000001, z: 8}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1592703178
 GameObject:
   m_ObjectHideFlags: 0
@@ -54129,7 +54114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731028556}
   - component: {fileID: 1731028557}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Back Legs 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57124,7 +57109,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.2154896, y: 3.9864194, z: 9.999996}
+  m_Size: {x: 3.2154896, y: 3.9864194, z: 10}
   m_Center: {x: 4.9131737, y: -1.4932102, z: 0}
 --- !u!1 &2103529626
 GameObject:
@@ -57285,7 +57270,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2124775094}
   - component: {fileID: 2124775095}
-  m_Layer: 12
+  - component: {fileID: 2124775096}
+  m_Layer: 0
   m_Name: RacoonController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57330,6 +57316,18 @@ MonoBehaviour:
   MarkingColor: {r: 0, g: 1, b: 0.9286413, a: 0}
   FurCount: 10000
   Hunger: {fileID: 11400000, guid: 78f3e6436d599cb4889ef7cde36d7d38, type: 2}
+--- !u!65 &2124775096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124775093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.650002, y: 6.000001, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2125107605
 GameObject:
   m_ObjectHideFlags: 0

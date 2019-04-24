@@ -23,8 +23,8 @@ public class FloatData : ScriptableObject
     {
         Value += dataObj.Value;
     }
-
-    private void Update()
+    
+    private void Update () 
     {
         if (Value == 0)
         {

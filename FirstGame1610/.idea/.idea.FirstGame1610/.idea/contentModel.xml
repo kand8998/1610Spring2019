@@ -26,6 +26,7 @@
           <e p="DoorSwitch.cs" t="Include" />
           <e p="EggEvent.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
+          <e p="FinalFlip.cs" t="Include" />
           <e p="FlipCharacter.cs" t="Include" />
           <e p="Forces.cs" t="Include" />
           <e p="FunctionsWithParams.cs" t="Include" />
