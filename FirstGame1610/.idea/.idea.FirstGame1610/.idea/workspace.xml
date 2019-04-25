@@ -9,7 +9,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FinalFlip.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <marker date="1556226946006" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556226946006" expanded="true" signature="119:230" ph="{...}" />
+                <marker date="1556226946006" expanded="true" signature="145:228" ph="{...}" />
+                <marker date="1556226946006" expanded="true" signature="187:225" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+              <folding>
+                <marker date="1556227571952" expanded="false" signature="6:104" ph="..." />
+                <marker date="1556227571952" expanded="true" signature="145:589" ph="{...}" />
+                <marker date="1556227571952" expanded="true" signature="271:300" ph="{...}" />
+                <marker date="1556227571952" expanded="true" signature="346:382" ph="{...}" />
+                <marker date="1556227571952" expanded="true" signature="431:469" ph="{...}" />
+                <marker date="1556227571952" expanded="true" signature="498:531" ph="{...}" />
+                <marker date="1556227571952" expanded="true" signature="557:587" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -107,7 +141,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Counter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdatePowerUpBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Porcupine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RunAnims.cs" />
         <option value="$PROJECT_DIR$/Assets/GameValues/Ending.cs" />
@@ -119,12 +152,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Round.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlipCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FinalFlip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="910" />
-    <option name="width" value="1015" />
+    <option name="x" value="175" />
+    <option name="width" value="1750" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,11 +275,13 @@
       <workItem from="1555975049834" duration="623000" />
       <workItem from="1556026679097" duration="1191000" />
       <workItem from="1556111873717" duration="635000" />
+      <workItem from="1556226893173" duration="53000" />
+      <workItem from="1556227392965" duration="183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87231000" />
+    <option name="totallyTimeSpent" value="87467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +293,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="728" y="0" width="812" height="832" extended-state="0" />
+    <frame x="140" y="0" width="1400" height="832" extended-state="0" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.34993774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -738,22 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <marker date="1555533842800" expanded="false" signature="6:104" ph="..." />
-            <marker date="1555533842800" expanded="true" signature="145:589" ph="{...}" />
-            <marker date="1555533842800" expanded="true" signature="271:300" ph="{...}" />
-            <marker date="1555533842800" expanded="true" signature="346:382" ph="{...}" />
-            <marker date="1555533842800" expanded="true" signature="431:469" ph="{...}" />
-            <marker date="1555533842800" expanded="true" signature="498:531" ph="{...}" />
-            <marker date="1555533842800" expanded="true" signature="557:587" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameValues/Ending.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlipCamera.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RunAnims.cs">
@@ -877,19 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FinalFlip.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1556112483335" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556112483335" expanded="true" signature="119:233" ph="{...}" />
-            <marker date="1556112483335" expanded="true" signature="145:231" ph="{...}" />
-            <marker date="1556112483335" expanded="true" signature="187:225" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UpdateBar.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -914,6 +921,35 @@
             <marker date="1551305009595" expanded="true" signature="151:310" ph="{...}" />
             <marker date="1551305009595" expanded="true" signature="191:246" ph="{...}" />
             <marker date="1551305009595" expanded="true" signature="253:307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FinalFlip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1556226946006" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556226946006" expanded="true" signature="119:230" ph="{...}" />
+            <marker date="1556226946006" expanded="true" signature="145:228" ph="{...}" />
+            <marker date="1556226946006" expanded="true" signature="187:225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+          <folding>
+            <marker date="1556227571952" expanded="false" signature="6:104" ph="..." />
+            <marker date="1556227571952" expanded="true" signature="145:589" ph="{...}" />
+            <marker date="1556227571952" expanded="true" signature="271:300" ph="{...}" />
+            <marker date="1556227571952" expanded="true" signature="346:382" ph="{...}" />
+            <marker date="1556227571952" expanded="true" signature="431:469" ph="{...}" />
+            <marker date="1556227571952" expanded="true" signature="498:531" ph="{...}" />
+            <marker date="1556227571952" expanded="true" signature="557:587" ph="{...}" />
           </folding>
         </state>
       </provider>
