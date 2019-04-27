@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Mammal : Vertebrate
 {
-
 	public Color MarkingColor;
 	public int FurCount = 10000;
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class Animal : MonoBehaviour
@@ -22,9 +20,8 @@ public class Animal : MonoBehaviour
 	{
 		Event.Invoke();
 	}
-	  
-	private void Update ()
+
+	private void Update()
 	{
-		
 	}
 }

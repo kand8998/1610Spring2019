@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CaveCreature : Vertebrate
 {
-
-	void Start ()
+	private void Start ()
 	{
 		GetComponent<SpriteRenderer>().color = SkinColor;
 	} 

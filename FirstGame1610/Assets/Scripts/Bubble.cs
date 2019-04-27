@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bubble : Round
 {
 	public Color BubbleColor;
-	void Start()
+	private void Start()
 	{
 		GetComponent<SpriteRenderer>().color = BubbleColor;
 	}
