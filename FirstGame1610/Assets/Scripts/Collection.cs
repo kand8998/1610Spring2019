@@ -5,6 +5,7 @@ using UnityEngine.Events;
 [CreateAssetMenu]
 public class Collection : ScriptableObject
 {
+    public UnityEvent DisplayEvent;
     public List<FloatData> CollectionList;
     public void Collect(FloatData obj)
     {
@@ -37,7 +38,7 @@ public class Collection : ScriptableObject
             if (obj.name == "PlayerScore")
             {
                 Debug.Log("We have" + obj.Value + "Points!");
-                
+                DisplayEvent.Invoke();
             }
         }
     }
