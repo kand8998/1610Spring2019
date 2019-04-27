@@ -8,7 +8,7 @@ public class Conditionals : MonoBehaviour
 	public int Number;
 	public string Password;
 
-	private void Update () 
+	private void OnMouseDown()
 	{
 		if (!CanWalk)
 		{

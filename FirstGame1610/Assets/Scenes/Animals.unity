@@ -41862,6 +41862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446808878}
   - component: {fileID: 1446808877}
+  - component: {fileID: 1446808875}
   m_Layer: 0
   m_Name: Mushrooms
   m_TagString: Untagged
@@ -41869,6 +41870,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1446808875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446808874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d09f3265e9341cf459a7e2c6269ed41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanWalk: 0
+  Number: 0
+  Password: 
 --- !u!212 &1446808877
 SpriteRenderer:
   m_ObjectHideFlags: 0
