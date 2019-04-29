@@ -5375,95 +5375,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4042127901027212, guid: 9b0929e4fb3b18345989c0b8b1352b05,
     type: 2}
   m_PrefabInternal: {fileID: 1359206241}
---- !u!1 &495309089
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 495309090}
-  - component: {fileID: 495309092}
-  - component: {fileID: 495309091}
-  m_Layer: 0
-  m_Name: Egg trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &495309090
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 495309089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.3, y: 5.5, z: -8.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 536058649}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &495309091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 495309089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3045eff13230394a9c91a2122a659c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 525312536}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  CollisionEnterEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  MouseDownEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  UpdateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!65 &495309092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 495309089}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 16.06, y: 11.05, z: 43.83}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &512424782
 GameObject:
   m_ObjectHideFlags: 0
@@ -5628,14 +5539,13 @@ GameObject:
   - component: {fileID: 525312537}
   - component: {fileID: 525312540}
   - component: {fileID: 525312539}
-  - component: {fileID: 525312538}
   m_Layer: 0
   m_Name: Final Egg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &525312537
 Transform:
   m_ObjectHideFlags: 0
@@ -5643,31 +5553,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 525312536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.7, y: -26.5, z: 49.90625}
-  m_LocalScale: {x: 0.69479, y: 0.69479, z: 0.69479}
+  m_LocalPosition: {x: 0, y: -0.2878551, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1592703179}
-  m_Father: {fileID: 2126677376}
+  m_Father: {fileID: 1141198787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &525312538
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 525312536}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c3013159fc16a74d810ee3ec82a357e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &525312539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5775,10 +5667,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.6, y: -21.2, z: 57.6}
   m_LocalScale: {x: 1.7249, y: 1, z: 1}
-  m_Children:
-  - {fileID: 495309090}
+  m_Children: []
   m_Father: {fileID: 2126677376}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &536058650
 MonoBehaviour:
@@ -5793,18 +5684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1593898472}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   TriggerEnterEvent:
@@ -5877,6 +5757,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 540524570}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1141198785}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -19006,7 +18897,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 525312536}
+      - m_Target: {fileID: 1141198785}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -25693,6 +25584,54 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1141198785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1141198787}
+  - component: {fileID: 1141198786}
+  m_Layer: 0
+  m_Name: Final Egg Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!95 &1141198786
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141198785}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c3013159fc16a74d810ee3ec82a357e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &1141198787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141198785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 55.700012, y: -31.6, z: 49.90625}
+  m_LocalScale: {x: 0.69479, y: 0.69479, z: 0.69479}
+  m_Children:
+  - {fileID: 525312537}
+  m_Father: {fileID: 2126677376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1143805266
 GameObject:
   m_ObjectHideFlags: 0
@@ -47818,7 +47757,7 @@ MonoBehaviour:
   EndingEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 525312538}
+      - m_Target: {fileID: 0}
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -48585,7 +48524,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -53730,7 +53669,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4225419252606864, guid: 944a15c195cb4484e89be0111a1e2f40, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1744817178790776, guid: 944a15c195cb4484e89be0111a1e2f40, type: 2}
       propertyPath: m_IsActive
@@ -56653,7 +56592,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4514584114424378, guid: cb8ff0efc469732458574b560e9cb71a, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1370955871550018, guid: cb8ff0efc469732458574b560e9cb71a, type: 2}
       propertyPath: m_Name
@@ -57654,13 +57593,13 @@ Transform:
   m_LocalPosition: {x: 784.2, y: -15.841284, z: -49.90625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 525312537}
+  - {fileID: 1141198787}
   - {fileID: 714539180}
   - {fileID: 1431054038}
   - {fileID: 845634347}
   - {fileID: 1360633668}
-  - {fileID: 1659881789}
   - {fileID: 536058649}
+  - {fileID: 1659881789}
   - {fileID: 1181850531}
   m_Father: {fileID: 0}
   m_RootOrder: 6
