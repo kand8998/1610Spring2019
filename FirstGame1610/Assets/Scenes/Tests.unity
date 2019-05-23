@@ -312,6 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa885f7d6768f344aed6daa3ff279dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CorrectColor: {r: 0.80563813, g: 1, b: 0.4575472, a: 1}
+  IncorrectColor: {r: 0.6037736, g: 0, b: 0, a: 1}
   score: {fileID: 11400000, guid: a39667602af986d448251c852d5d6962, type: 2}
   ScoreEvent:
     m_PersistentCalls:
