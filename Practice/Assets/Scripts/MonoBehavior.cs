@@ -1,16 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class MonoBehavior : MonoBehaviour {
+public class MonoBehavior : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
+	public UnityEvent StartEvent, UpdateEvent, TriggerEnterEvent;
+	private void Start ()
+	{
+		StartEvent.Invoke();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	private void Update ()
+	{
+		UpdateEvent.Invoke();
+	}
+
+	private void OnTriggerEnter()
+	{
+		TriggerEnterEvent.Invoke();
 	}
 }
