@@ -10,13 +10,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="30">
               <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <element signature="e#0#104#0" expanded="true" />
+                <marker date="1560967948579" expanded="false" signature="6:104" ph="..." />
+                <marker date="1560967948579" expanded="true" signature="144:388" ph="{...}" />
+                <marker date="1560967948579" expanded="true" signature="233:262" ph="{...}" />
+                <marker date="1560967948579" expanded="true" signature="288:318" ph="{...}" />
+                <marker date="1560967948579" expanded="true" signature="350:386" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <marker date="1563413942331" expanded="false" signature="6:78" ph="..." />
+                <marker date="1563413942331" expanded="true" signature="139:335" ph="{...}" />
+                <marker date="1563413942331" expanded="true" signature="202:260" ph="{...}" />
+                <marker date="1563413942331" expanded="true" signature="304:333" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -27,11 +46,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -68,6 +92,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,11 +118,12 @@
       <updated>1560636347762</updated>
       <workItem from="1560636358070" duration="757000" />
       <workItem from="1560967938138" duration="20000" />
+      <workItem from="1563413444881" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777000" />
+    <option name="totallyTimeSpent" value="1283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -103,6 +142,7 @@
       <window_info content_ui="combo" id="Project" order="2" weight="0.2589552" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -172,19 +212,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehavior.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="30">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1560967948579" expanded="false" signature="6:104" ph="..." />
+            <marker date="1560967948579" expanded="true" signature="144:388" ph="{...}" />
+            <marker date="1560967948579" expanded="true" signature="233:262" ph="{...}" />
+            <marker date="1560967948579" expanded="true" signature="288:318" ph="{...}" />
+            <marker date="1560967948579" expanded="true" signature="350:386" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="e#0#104#0" expanded="true" />
+            <marker date="1563413942331" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563413942331" expanded="true" signature="139:335" ph="{...}" />
+            <marker date="1563413942331" expanded="true" signature="202:260" ph="{...}" />
+            <marker date="1563413942331" expanded="true" signature="304:333" ph="{...}" />
           </folding>
         </state>
       </provider>
