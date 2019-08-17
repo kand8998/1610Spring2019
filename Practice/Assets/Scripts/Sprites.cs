@@ -18,7 +18,7 @@ public class Sprites : MonoBehaviour {
 
 	private void OnMouseDown()
 	{
-		
+		transform.Rotate(3, 0, 0);
 	}
 		
 }

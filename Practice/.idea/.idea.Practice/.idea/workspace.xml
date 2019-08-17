@@ -44,14 +44,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sprites.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <marker date="1564784531398" expanded="false" signature="6:78" ph="..." />
-                <marker date="1564784531398" expanded="true" signature="117:234" ph="{...}" />
-                <marker date="1564784531398" expanded="true" signature="145:154" ph="{...}" />
-                <marker date="1564784531398" expanded="true" signature="182:191" ph="{...}" />
-                <marker date="1564784531398" expanded="true" signature="220:229" ph="{...}" />
+                <marker date="1566072902413" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566072902413" expanded="true" signature="117:260" ph="{...}" />
+                <marker date="1566072902413" expanded="true" signature="145:154" ph="{...}" />
+                <marker date="1566072902413" expanded="true" signature="182:191" ph="{...}" />
+                <marker date="1566072902413" expanded="true" signature="220:255" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,8 +63,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sprites.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -90,8 +90,10 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -115,12 +117,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -138,11 +142,12 @@
       <workItem from="1560967938138" duration="20000" />
       <workItem from="1563413444881" duration="506000" />
       <workItem from="1564784192241" duration="361000" />
+      <workItem from="1566072784309" duration="364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1644000" />
+    <option name="totallyTimeSpent" value="2008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +224,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -261,14 +266,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Sprites.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <marker date="1564784531398" expanded="false" signature="6:78" ph="..." />
-            <marker date="1564784531398" expanded="true" signature="117:234" ph="{...}" />
-            <marker date="1564784531398" expanded="true" signature="145:154" ph="{...}" />
-            <marker date="1564784531398" expanded="true" signature="182:191" ph="{...}" />
-            <marker date="1564784531398" expanded="true" signature="220:229" ph="{...}" />
+            <marker date="1566072902413" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566072902413" expanded="true" signature="117:260" ph="{...}" />
+            <marker date="1566072902413" expanded="true" signature="145:154" ph="{...}" />
+            <marker date="1566072902413" expanded="true" signature="182:191" ph="{...}" />
+            <marker date="1566072902413" expanded="true" signature="220:255" ph="{...}" />
           </folding>
         </state>
       </provider>
