@@ -10,11 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <marker date="1566517330263" expanded="true" signature="6:118" ph="..." />
                 <marker date="1566517330263" expanded="true" signature="158:518" ph="{...}" />
@@ -22,6 +22,23 @@
                 <marker date="1566517330263" expanded="true" signature="322:352" ph="{...}" />
                 <marker date="1566517330263" expanded="true" signature="398:434" ph="{...}" />
                 <marker date="1566517330263" expanded="true" signature="479:516" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ColorChange.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <marker date="1566583993936" expanded="true" signature="6:78" ph="..." />
+                <marker date="1566583993936" expanded="true" signature="121:425" ph="{...}" />
+                <marker date="1566583993936" expanded="true" signature="180:189" ph="{...}" />
+                <marker date="1566583993936" expanded="true" signature="210:423" ph="{...}" />
+                <marker date="1566583993936" expanded="true" signature="248:313" ph="{...}" />
+                <marker date="1566583993936" expanded="true" signature="351:417" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,10 +92,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sprites.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorChange.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="175" />
     <option name="width" value="1750" />
     <option name="height" value="1040" />
@@ -145,6 +163,7 @@
       <workItem from="1564784192241" duration="361000" />
       <workItem from="1566072784309" duration="364000" />
       <workItem from="1566517241997" duration="92000" />
+      <workItem from="1566583759245" duration="235000" />
     </task>
     <servers />
   </component>
@@ -161,7 +180,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="0" width="1400" height="832" extended-state="0" />
+    <frame x="140" y="0" width="1400" height="832" extended-state="1" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -239,6 +258,21 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <marker date="1566517330263" expanded="true" signature="6:118" ph="..." />
+            <marker date="1566517330263" expanded="true" signature="158:518" ph="{...}" />
+            <marker date="1566517330263" expanded="true" signature="267:296" ph="{...}" />
+            <marker date="1566517330263" expanded="true" signature="322:352" ph="{...}" />
+            <marker date="1566517330263" expanded="true" signature="398:434" ph="{...}" />
+            <marker date="1566517330263" expanded="true" signature="479:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -266,17 +300,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ColorChange.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="345">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
           <folding>
-            <marker date="1566517330263" expanded="true" signature="6:118" ph="..." />
-            <marker date="1566517330263" expanded="true" signature="158:518" ph="{...}" />
-            <marker date="1566517330263" expanded="true" signature="267:296" ph="{...}" />
-            <marker date="1566517330263" expanded="true" signature="322:352" ph="{...}" />
-            <marker date="1566517330263" expanded="true" signature="398:434" ph="{...}" />
-            <marker date="1566517330263" expanded="true" signature="479:516" ph="{...}" />
+            <marker date="1566583993936" expanded="true" signature="6:78" ph="..." />
+            <marker date="1566583993936" expanded="true" signature="121:425" ph="{...}" />
+            <marker date="1566583993936" expanded="true" signature="180:189" ph="{...}" />
+            <marker date="1566583993936" expanded="true" signature="210:423" ph="{...}" />
+            <marker date="1566583993936" expanded="true" signature="248:313" ph="{...}" />
+            <marker date="1566583993936" expanded="true" signature="351:417" ph="{...}" />
           </folding>
         </state>
       </provider>
